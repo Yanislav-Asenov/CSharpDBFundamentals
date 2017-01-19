@@ -1,0 +1,17 @@
+CREATE TABLE Users(
+	ID bigint IDENTITY,
+	Username varchar(30),
+	[Password] nvarchar(26),
+	ProfilePicture varbinary(max),
+	LastLoginTime datetime,
+	IsDeleted bit,
+	CONSTRAINT PK_Users PRIMARY KEY(ID)
+);
+
+INSERT INTO Users(Username, [Password], ProfilePicture, LastLoginTime, IsDeleted)
+VALUES ('Test1', '123321', NULL, GETDATE(), 0),
+	   ('Test2', '123321', NULL, GETDATE(), 0),
+	   ('Test3', '123321', NULL, GETDATE(), 0),
+	   ('Test4', '123321', NULL, GETDATE(), 0),
+	   ('Test5', '123321', NULL, GETDATE(), 0)
+

@@ -1,0 +1,53 @@
+CREATE TABLE Directors(
+	ID int,
+	DirectorName nvarchar(50) NOT NULL,
+	Notes nvarchar(MAX),
+	CONSTRAINT PK_Directors PRIMARY KEY(ID)
+);
+
+CREATE TABLE Genres(
+	ID int,
+	GenreName nvarchar(50),
+	Notes nvarchar(MAX),
+	CONSTRAINT PK_Genres PRIMARY KEY(ID)
+);
+
+CREATE TABLE Categories(
+	ID int,
+	CategoryName nvarchar(50) NOT NULL,
+	Notes nvarchar(MAX),
+	CONSTRAINT PK_Categories PRIMARY KEY(ID)
+);
+
+CREATE TABLE Movies(
+	ID int,
+	DirectorID int,
+	CopyrightYear int,
+	[Length] int,
+	CategoryID int,
+	GenreID int,
+	Rating float,
+	Notes nvarchar(MAX),
+	CONSTRAINT FK_Movies_Genres FOREIGN KEY(GenreID)
+	  REFERENCES Genres(ID),
+	CONSTRAINT FK_Movies_Directors FOREIGN KEY(DirectorID)
+	  REFERENCES Directors(ID),
+	CONSTRAINT FK_Movies_Categories FOREIGN KEY(CategoryID)
+	  REFERENCES Categories(ID)
+);
+
+INSERT INTO Directors(ID, DirectorName, Notes)
+VALUES (1, 'Test1', 'Test1'), (2, 'Test2', 'Test2'), (3, 'Test3', 'Test3'), (4, 'Test4', 'Test4'), (5, 'Test5', 'Test5')
+
+
+INSERT INTO Categories(ID, CategoryName, Notes)
+VALUES (1, 'Test1', 'Test1'), (2, 'Test2', 'Test2'), (3, 'Test3', 'Test3'), (4, 'Test4', 'Test4'), (5, 'Test5', 'Test5')
+
+INSERT INTO Genres(ID, GenreName, Notes)
+VALUES (1, 'Test1', 'Test1'), (2, 'Test2', 'Test2'), (3, 'Test3', 'Test3'), (4, 'Test4', 'Test4'), (5, 'Test5', 'Test5')
+
+
+INSERT INTO Movies(ID, Rating, [Length], CopyrightYear, CategoryID, DirectorID, GenreID)
+VALUES (1, 4, 111, 2017, 1, 2, 3), (2, 4, 111, 2017, 2, 3, 4), (3, 4, 111, 2017, 3, 4, 5), (4, 4, 111, 2017, 5, 4, 3), (5, 4, 111, 2017, 2, 1, 5)
+
+

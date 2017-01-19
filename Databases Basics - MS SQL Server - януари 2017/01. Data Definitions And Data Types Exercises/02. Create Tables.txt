@@ -1,0 +1,13 @@
+CREATE TABLE Minions(
+	ID int,
+	[Name] nvarchar(50),
+	Age int,
+	CONSTRAINT PK_Minions PRIMARY KEY(ID)
+);
+
+CREATE TABLE Towns(
+	ID INT,
+	[Name] NVARCHAR(50),
+	CONSTRAINT PK_Towns PRIMARY KEY(ID)
+);
+

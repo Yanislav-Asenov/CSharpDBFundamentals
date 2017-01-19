@@ -1,0 +1,6 @@
+SELECT e.FirstName + ' ' + e.MiddleName + ' ' + e.LastName AS 'Full Name'
+FROM Employees AS e
+WHERE e.Salary = 12500
+	  OR e.Salary = 14000
+	  OR e.Salary = 23600
+	  OR e.Salary = 25000

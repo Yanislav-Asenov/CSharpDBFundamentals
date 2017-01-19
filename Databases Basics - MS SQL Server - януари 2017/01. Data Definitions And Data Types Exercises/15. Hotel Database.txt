@@ -1,0 +1,108 @@
+CREATE TABLE Employees
+(
+ID INT IDENTITY(1,1) PRIMARY KEY,
+FirstName NVARCHAR(50) NOT NULL,
+LastName NVARCHAR(50) NOT NULL,
+Title NVARCHAR(50) NOT NULL,
+Notes NTEXT
+)
+ 
+CREATE TABLE Customers
+(
+AccountNumber NVARCHAR(25) PRIMARY KEY,
+FirstName NVARCHAR(50) NOT NULL,
+LastName NVARCHAR(50) NOT NULL,
+PhoneNumber NVARCHAR(50) NOT NULL,
+EmergencyName NVARCHAR(50),
+EmergencyNumber NVARCHAR(50),
+Notes NTEXT
+)
+ 
+CREATE TABLE RoomStatus
+(
+RoomStatus NVARCHAR(10) PRIMARY KEY,
+Notes NTEXT
+)
+ 
+CREATE TABLE RoomTypes
+(
+RoomType NVARCHAR(50) PRIMARY KEY,
+Notes NTEXT
+)
+ 
+CREATE TABLE BedTypes
+(
+BedType NVARCHAR(50) PRIMARY KEY,
+Notes NTEXT
+)
+ 
+CREATE TABLE Rooms
+(
+RoomNumber INT IDENTITY(1,1) PRIMARY KEY,
+RoomType NVARCHAR(50) NOT NULL,
+BedType NVARCHAR(50) NOT NULL,
+Rate INT,
+RoomStatus NVARCHAR(10) NOT NULL,
+Notes NTEXT
+)
+ 
+CREATE TABLE Payments
+(
+ID INT IDENTITY(1,1) PRIMARY KEY,
+EmployeeID INT NOT NULL,
+PaymentDate DATE NOT NULL,
+AccountNumber NVARCHAR(25) NOT NULL,
+FirstDateOccupied DATE,
+LastDateOccupied DATE,
+TotalDays INT,
+AmountCharged DECIMAL NOT NULL,
+TaxRate DECIMAL,
+TaxAmount DECIMAL NOT NULL,
+PaymentTotal DECIMAL NOT NULL,
+Notes NTEXT
+)
+ 
+CREATE TABLE Occupancies
+(
+ID INT IDENTITY(1,1) PRIMARY KEY,
+EmployeeID INT NOT NULL,
+DateOccupied DATE NOT NULL,
+AccountNumber NVARCHAR(25) NOT NULL,
+RoomNumber INT NOT NULL,
+RateApplied INT,
+PhoneCharge DECIMAL,
+Notes NTEXT
+)
+ 
+INSERT INTO Employees VALUES('Gosho', 'Goshev', 'rabotnik', '.')
+INSERT INTO Employees VALUES('Tosho', 'Toshev', 'rabotnik', '.')
+INSERT INTO Employees VALUES('Pesho', 'Peshev', 'rabotnik', '.')
+ 
+INSERT INTO Customers(AccountNumber, FirstName, LastName, PhoneNumber) VALUES('C', 'Nqkoi si 2', 'tam', 'tam')
+INSERT INTO Customers(AccountNumber, FirstName, LastName, PhoneNumber) VALUES('D', 'Nqkoi si 3', 'tam', 'tam')
+INSERT INTO Customers(AccountNumber, FirstName, LastName, PhoneNumber) VALUES('B', 'Nqkoi si 1', 'tam', 'tam')
+ 
+INSERT INTO RoomStatus VALUES('0', 'zaeta')
+INSERT INTO RoomStatus VALUES('1', 'svobodna')
+INSERT INTO RoomStatus VALUES('2', 'ss')
+ 
+INSERT INTO RoomTypes VALUES('A', 'A')
+INSERT INTO RoomTypes VALUES('B', 'B')
+INSERT INTO RoomTypes VALUES('C', 'C')
+ 
+INSERT INTO BedTypes VALUES('A', 'A')
+INSERT INTO BedTypes VALUES('B', 'B')
+INSERT INTO BedTypes VALUES('C', 'C')
+ 
+INSERT INTO Rooms VALUES('A', 'B', 0, '0', 'xx')
+INSERT INTO Rooms VALUES('B', 'A', 0, '1', 'xx')
+INSERT INTO Rooms VALUES('C', 'C', 0, '1', 'xx')
+ 
+INSERT INTO Payments (EmployeeID, PaymentDate, AccountNumber, AmountCharged, TaxAmount, PaymentTotal) VALUES(1, GETDATE(), 'B', 1, 1, 1)
+INSERT INTO Payments (EmployeeID, PaymentDate, AccountNumber, AmountCharged, TaxAmount, PaymentTotal) VALUES(2, GETDATE(), 'C', 1, 1, 1)
+INSERT INTO Payments (EmployeeID, PaymentDate, AccountNumber, AmountCharged, TaxAmount, PaymentTotal) VALUES(3, GETDATE(), 'D', 1, 1, 1)
+
+INSERT INTO Occupancies (EmployeeID, DateOccupied, AccountNumber, RoomNumber, RateApplied, PhoneCharge, Notes)
+VALUES (1, GETDATE(), 'C', 1, 5, 5.5, 'test note'),
+		(2, GETDATE(), 'C', 2, 5, 5.5, 'test note'),
+		(3, GETDATE(), 'C', 3, 5, 5.5, 'test note')

@@ -1,0 +1,95 @@
+CREATE TABLE Categories (
+	ID int,
+	[Name] varchar(50) NOT NULL,
+	DailyRate float,
+	WeelyRate float,
+	MonthlyRate float,
+	WeekendRate float,
+	CONSTRAINT PK_Categories PRIMARY KEY(ID)
+);
+
+CREATE TABLE Cars (
+	ID int,
+	PlateNumber nvarchar(20),
+	Make nvarchar(50),
+	Model nvarchar(50),
+	[Year] int,
+	Doors int,
+	Picture varbinary(max),
+	Condition varchar(50),
+	Available nvarchar(50),
+	CategoryID int,
+	CONSTRAINT PK_Cars PRIMARY KEY(ID),
+	CONSTRAINT FK_Cars_Categories FOREIGN KEY(CategoryID)
+	  REFERENCES Categories(ID)
+);
+
+CREATE TABLE Employees (
+	ID int,
+	FirstName nvarchar(50),
+	LastName nvarchar(50),
+	Title nvarchar(50),
+	Notes nvarchar(max),
+	CONSTRAINT PK_Employees PRIMARY KEY(ID)
+);
+
+CREATE TABLE Customers (
+	ID int,
+	DriverLicenseNumber nvarchar(50),
+	FullName nvarchar(200),
+	[Address] nvarchar(100),
+	City nvarchar(50),
+	ZIPCode nvarchar(50),
+	Notes nvarchar(max),
+	CONSTRAINT PK_Customers PRIMARY KEY(ID)
+);
+
+CREATE TABLE RentalOrders (
+	ID int,
+	EmployeeID int,
+	CustomerID int,
+	CarID int,
+	CarCondition nvarchar(100),
+	TankLevel float,
+	KilometrageStart date,
+	KilometrageEnd date,
+	TotalKilometrage int,
+	StartDate date,
+	EndDate date,
+	TotalDays int,
+	RateApplied float,
+	TaxRate float,
+	OrderStatus nvarchar(100),
+	Notes nvarchar(max),
+	CONSTRAINT PK_RentalOrders PRIMARY KEY(ID),
+	CONSTRAINT FK_RentalOrders_Employees FOREIGN KEY(EmployeeID)
+	  REFERENCES Employees(ID),
+	CONSTRAINT FK_RentalOrders_Customers FOREIGN KEY(CustomerID)
+	  REFERENCES Customers(ID),
+	CONSTRAINT FK_RentalOrders_Cars FOREIGN KEY(CarID)
+	  REFERENCES Cars(ID)
+);
+
+INSERT INTO Categories(ID, [Name], DailyRate, WeekendRate, MonthlyRate)
+VALUES (1, 'Light', 1, 1, 1), (2, 'Medium', 2, 2, 2), (3, 'Heavy', 3, 3, 3)
+
+INSERT INTO Cars(ID, Model, Make, Picture, PlateNumber, Doors, Condition, Available, [Year], CategoryID)
+VALUES (1, 'Test Model 1', 'Test Make 1', NULL, 'Test Number 1', 4, 'Very good', 'Yes', YEAR(GETDATE()), 1),
+		(2, 'Test Model 2', 'Test Make 2', NULL, 'Test Number 2', 4, 'Very good', 'Yes', YEAR(GETDATE()), 2),
+		(3, 'Test Model 3', 'Test Make 3', NULL, 'Test Number 3', 3, 'Very good', 'Yes', YEAR(GETDATE()), 3)
+
+INSERT INTO Employees(ID, FirstName, LastName, Title, Notes)
+VALUES (1, 'Yani1', 'Asenov1', 'The Animal', 'Good'),
+		(2, 'Yani2', 'Asenov2', 'The Animal', 'Good'),
+		(3, 'Yani3', 'Asenov3', 'The Animal', 'Good')
+
+
+INSERT INTO Customers(ID, FullName, [Address], DriverLicenseNumber, City, ZIPCode, Notes)
+VALUES (1, 'Yanislav Asenov 1', 'ul.Nqma q tochka kom', 'Yes', 'Sofia', '1233', 'Good'),
+		(2, 'Yanislav Asenov 2', 'ul.Nqma q tochka kom', 'Yes', 'Sofia', '1233', 'Good'),
+		(3, 'Yanislav Asenov 3', 'ul.Nqma q tochka kom', 'Yes', 'Sofia', '1233', 'Good')
+
+INSERT INTO RentalOrders(ID, CustomerID, EmployeeID, CarID, CarCondition, KilometrageStart, KilometrageEnd, Notes, OrderStatus, RateApplied, StartDate, TankLevel, TaxRate, TotalKilometrage)
+VALUES (1, 1, 1, 1, 'Good', GETDATE(), GETDATE(), 'Meow', 'Almost done', 2.2, GETDATE(), 50, 2.2, 100000),
+		(2, 2, 2, 2, 'Good 2', GETDATE(), GETDATE(), 'Meow 2', 'Almost done 2', 2.2, GETDATE(), 50, 2.2, 100000),
+		(3, 3, 3, 3, 'Good 3', GETDATE(), GETDATE(), 'Meow 3', 'Almost done 3', 2.2, GETDATE(), 50, 2.2, 100000)

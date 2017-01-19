@@ -1,0 +1,9 @@
+BACKUP DATABASE SoftUni
+	TO DISK = 'D:\softuni-backup.bak' --location where the backup file will be saved
+		WITH FORMAT,
+			MEDIANAME = '',
+			NAME = 'Full Backup of SoftUni db';
+GO
+
+RESTORE DATABASE SoftUni
+FROM DISK = 'D:\softuni-backup.bak'
