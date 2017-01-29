@@ -1,0 +1,6 @@
+SELECT TOP 50 [Name],
+		FORMAT([Start], 'yyyy-MM-dd') AS [Start]
+FROM Games
+WHERE YEAR(Games.Start) = '2011' 
+OR YEAR(Games.Start) = '2012'
+ORDER BY Games.Start ASC, [Name] ASC

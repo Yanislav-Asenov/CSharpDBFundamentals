@@ -1,0 +1,7 @@
+SELECT PeakName,
+		RiverName,
+		LOWER(CONCAT(PeakName, SUBSTRING(RiverName, 2, LEN(RiverName) - 1))) AS "Mix"
+FROM Peaks
+INNER JOIN Rivers
+ON SUBSTRING(PeakName, LEN(PeakName), 1) = SUBSTRING(RiverName, 1, 1)
+ORDER BY Mix

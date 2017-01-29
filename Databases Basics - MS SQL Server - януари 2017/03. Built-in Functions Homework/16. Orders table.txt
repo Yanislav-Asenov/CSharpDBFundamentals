@@ -1,0 +1,5 @@
+SELECT o.[ProductName],
+		o.[OrderDate],
+		DATEADD(d, 3,o.[OrderDate]) AS "Pay Due",
+		DATEADD(M, 1, o.[OrderDate]) AS "Delivery Due"
+FROM Orders AS o
