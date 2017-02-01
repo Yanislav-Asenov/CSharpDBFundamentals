@@ -1,0 +1,17 @@
+SELECT
+	c.CountryCode,
+	COUNT(c.MountainRange) AS MountainRanges
+FROM (
+	SELECT
+	c.CountryCode,
+	M.MountainRange
+	FROM Countries AS c
+	INNER JOIN(SELECT MountainId, CountryCode FROM MountainsCountries) AS mc
+	ON mc.CountryCode = c.CountryCode
+	INNER JOIN(SELECT Id, MountainRange FROM Mountains) AS m
+	ON mc.MountainId = m.Id
+) AS c
+WHERE c.CountryCode = 'BG'
+	OR c.CountryCode = 'RU'
+	OR c.CountryCode = 'US'
+GROUP BY c.CountryCode

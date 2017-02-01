@@ -1,0 +1,11 @@
+SELECT
+	MIN(AverageSalary)
+FROM 
+(
+SELECT
+	AVG(e.Salary) AS AverageSalary
+FROM Departments AS d
+INNER JOIN Employees AS e
+	ON e.DepartmentID = d.DepartmentID
+GROUP BY d.DepartmentID
+) AS AverageSalaries

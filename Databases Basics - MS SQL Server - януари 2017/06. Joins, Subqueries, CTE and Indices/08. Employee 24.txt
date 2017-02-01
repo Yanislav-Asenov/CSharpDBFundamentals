@@ -1,0 +1,13 @@
+SELECT
+	e.EmployeeID,
+	e.FirstName,
+	CASE   
+		WHEN DATEPART(YY, p.StartDate) >= '2005' THEN NULL
+		ELSE p.[Name]
+	END AS ProjectName
+FROM Employees AS e
+INNER JOIN(SELECT EmployeeID, ProjectID FROM EmployeesProjects) AS ep
+ON ep.EmployeeID = e.EmployeeID
+INNER JOIN(SELECT ProjectID, [Name], StartDate FROM Projects) AS p
+ON ep.ProjectID = p.ProjectID
+WHERE e.EmployeeID = 24

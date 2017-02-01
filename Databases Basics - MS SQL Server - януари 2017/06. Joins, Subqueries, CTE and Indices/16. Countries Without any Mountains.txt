@@ -1,0 +1,9 @@
+SELECT
+	COUNT(countriesWithoutMountains.CountryCode)
+FROM (
+	SELECT
+		c.CountryCode
+	FROM Countries AS c
+	WHERE c.CountryCode NOT IN (SELECT CountryCode
+								FROM MountainsCountries)
+) AS countriesWithoutMountains

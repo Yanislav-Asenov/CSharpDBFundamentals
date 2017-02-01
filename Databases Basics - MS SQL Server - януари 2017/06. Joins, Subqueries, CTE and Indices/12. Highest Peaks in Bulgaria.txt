@@ -1,0 +1,15 @@
+SELECT
+	c.CountryCode,
+	m.MountainRange,
+	p.PeakName,
+	p.Elevation
+FROM Countries AS c
+INNER JOIN(SELECT CountryCode, MountainId FROM MountainsCountries) AS mc
+ON c.CountryCode = mc.CountryCode
+INNER JOIN(SELECT Id, MountainRange FROM Mountains) AS m
+ON m.Id = mc.MountainId
+INNER JOIN(SELECT PeakName, Elevation, MountainId FROM Peaks) AS p
+ON p.MountainId = m.Id
+WHERE mc.CountryCode = 'BG'
+	AND p.Elevation > 2835
+ORDER BY p.Elevation DESC

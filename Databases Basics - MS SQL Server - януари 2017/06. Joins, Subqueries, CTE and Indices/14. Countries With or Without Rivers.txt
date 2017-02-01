@@ -1,0 +1,10 @@
+SELECT TOP 5
+	c.CountryName,
+	r.RiverName
+FROM Countries AS c
+LEFT JOIN(SELECT CountryCode, RiverId FROM CountriesRivers) AS cr
+ON cr.CountryCode = c.CountryCode
+LEFT JOIN(SELECT Id, RiverName FROM Rivers) AS r
+ON r.Id = cr.RiverId
+WHERE c.ContinentCode = 'AF'
+ORDER BY c.CountryName ASC

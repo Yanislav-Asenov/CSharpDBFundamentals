@@ -1,0 +1,13 @@
+SELECT TOP 5
+	e.EmployeeID,
+	e.FirstName,
+	p.[Name]
+FROM Employees AS e
+INNER JOIN(SELECT ProjectID, EmployeeID FROM EmployeesProjects) AS ep
+ON e.EmployeeID = ep.EmployeeID
+INNER JOIN(SELECT ProjectID, [Name], StartDate, EndDate FROM Projects) AS p
+ON p.ProjectID = ep.ProjectID
+WHERE p.StartDate > '08/13/2002'
+	AND (p.EndDate > GETDATE()
+		OR p.EndDate IS NULL)
+ORDER BY e.EmployeeID ASC
