@@ -1,0 +1,15 @@
+SELECT thirdE.DepartmentID, MAX(thirdE.Salary)
+FROM Employees AS thirdE
+JOIN
+	(SELECT secondE.DepartmentID, MAX(secondE.Salary) AS SecondMaxSalary
+	FROM Employees AS secondE
+	JOIN
+		(SELECT DepartmentID, MAX(Salary) AS MaxSalary
+		FROM Employees
+		GROUP BY DepartmentID) AS MaxSalary
+	ON secondE.DepartmentID = MaxSalary.DepartmentID
+		AND secondE.Salary < MaxSalary.MaxSalary
+	GROUP BY secondE.DepartmentID) AS SecondMaxSalary
+ON thirdE.DepartmentID = SecondMaxSalary.DepartmentID
+	AND thirdE.Salary < SecondMaxSalary.SecondMaxSalary
+GROUP BY thirdE.DepartmentID

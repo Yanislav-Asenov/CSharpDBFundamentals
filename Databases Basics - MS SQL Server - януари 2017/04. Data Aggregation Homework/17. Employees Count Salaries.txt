@@ -1,0 +1,7 @@
+SELECT COUNT(ManagerlessEmployees)
+FROM (
+		SELECT EmployeeID AS ManagerlessEmployees 
+		FROM Employees 
+		WHERE ManagerID IS NULL
+	 ) AS ez
+    

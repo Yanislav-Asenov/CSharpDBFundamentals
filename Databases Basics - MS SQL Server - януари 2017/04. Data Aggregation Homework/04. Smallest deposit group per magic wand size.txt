@@ -1,0 +1,15 @@
+SELECT DepositGroup FROM
+(
+	SELECT DepositGroup, AVG(MagicWandSize) AS AverageSize
+	FROM WizzardDeposits
+	GROUP BY DepositGroup
+	HAVING AVG(MagicWandSize) = (
+									SELECT MIN(AverageWandSize)
+									FROM
+										(
+											SELECT DepositGroup, AVG(MagicWandSize) AS AverageWandSize
+											FROM WizzardDeposits
+											GROUP BY DepositGroup
+										) AS AverageResult 
+								 )
+) AS FinalResult
