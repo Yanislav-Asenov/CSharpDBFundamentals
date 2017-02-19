@@ -1,0 +1,22 @@
+INSERT INTO DepositTypes(DepositTypeID, [Name])
+VALUES (1, 'Time Deposit'), (2, 'Call Deposit'), (3, 'Free Deposit') 
+
+INSERT INTO Deposits (CustomerID, Amount, DepositTypeID, StartDate, EndDate)
+SELECT
+	CustomerID, 
+	CASE WHEN YEAR(DateOfBirth) >= 1980 THEN 1000 ELSE 1500 END + CASE WHEN Gender = 'M' THEN 100 ELSE 200 END,
+	CASE 
+		WHEN CustomerId > 15 THEN 3 
+	ELSE 
+		CASE WHEN CustomerID % 2 = 1 THEN 1 
+		ELSE 
+			2 
+		END
+	END,
+	GETDATE(),
+	NULL
+FROM Customers
+WHERE CustomerID < 20
+
+INSERT INTO EmployeesDeposits(EmployeeID, DepositID)
+VALUES (15, 4), (20, 15), (8, 7), (4, 8), (3, 13), (3, 8), (4, 10), (10, 1), (13, 4), (14, 9)

@@ -1,0 +1,9 @@
+SELECT
+	Customers.CustomerID,
+	Customers.FirstName,
+	Accounts.StartDate
+FROM Accounts
+INNER JOIN Customers
+  ON Accounts.CustomerID = Customers.CustomerID
+WHERE Accounts.StartDate = (SELECT MIN(a.StartDate)
+							FROM Accounts AS a)

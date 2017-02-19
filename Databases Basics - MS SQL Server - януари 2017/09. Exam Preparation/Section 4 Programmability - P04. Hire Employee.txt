@@ -1,0 +1,28 @@
+CREATE TRIGGER tr_HireEmployee
+ON Employees
+AFTER INSERT
+AS
+BEGIN
+	SELECT TOP 1
+		Employees.EmployeeID,
+		Loans.LoanID
+	INTO OldEmployeeInfo
+	FROM Employees
+	INNER JOIN EmployeesLoans
+	  ON Employees.EmployeeID = EmployeesLoans.EmployeeID
+	INNER JOIN Loans
+	  ON EmployeesLoans.LoanID = Loans.LoanID
+	ORDER BY Employees.EmployeeID DESC
+
+	DECLARE @oldEmployeeID INT = (SELECT EmployeeID FROM OldEmployeeInfo)
+	DECLARE @oldEmployeeLoanID INT = (SELECT LoanID FROM OldEmployeeInfo)
+
+	DECLARE @newEmployeeID INT = (SELECT inserted.EmployeeID FROM inserted)
+
+	UPDATE EmployeesLoans
+	SET EmployeeID = @newEmployeeID
+	WHERE EmployeeID = @oldEmployeeID
+		AND LoanID = @oldEmployeeLoanID
+
+	DROP TABLE OldEmployeeInfo
+END

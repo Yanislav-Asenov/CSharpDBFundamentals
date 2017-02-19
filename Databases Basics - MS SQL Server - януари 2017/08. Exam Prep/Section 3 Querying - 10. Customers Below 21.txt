@@ -1,0 +1,10 @@
+SELECT
+	Customers.CustomerID,
+	CONCAT(Customers.FirstName, CONCAT(' ', Customers.LastName)) AS FullName,
+	(2016 - DATEPART(YEAR, Customers.DateOfBirth)) AS Age
+FROM Customers
+WHERE (2016 - DATEPART(YEAR, Customers.DateOfBirth)) < 21
+	AND Customers.CustomerID IN (SELECT CustomerID FROM Tickets AS t
+								 INNER JOIN Flights AS f
+								   ON f.FlightID = t.FlightID AND f.Status = 'Arrived')
+ORDER BY  Age DESC, Customers.CustomerID

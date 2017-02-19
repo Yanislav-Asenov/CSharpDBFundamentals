@@ -1,0 +1,15 @@
+SELECT
+	lastFiveFlights.FlightID,
+	lastFiveFlights.DepartureTime,
+	lastFiveFlights.ArrivalTime,
+	originAirports.AirportName AS Origin,
+	destinationAirports.AirportName AS Destination
+FROM (SELECT TOP 5 *
+	  FROM Flights AS f
+	  WHERE f.Status = 'Departing'
+	  ORDER BY f.DepartureTime DESC) AS lastFiveFlights
+INNER JOIN Airports AS originAirports
+  ON lastFiveFlights.OriginAirportID = originAirports.AirportID
+INNER JOIN Airports AS destinationAirports
+  ON lastFiveFlights.DestinationAirportID = destinationAirports.AirportID
+ORDER BY lastFiveFlights.DepartureTime, FlightID

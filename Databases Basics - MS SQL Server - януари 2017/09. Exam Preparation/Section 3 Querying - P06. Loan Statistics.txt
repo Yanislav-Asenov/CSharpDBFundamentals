@@ -1,0 +1,9 @@
+SELECT
+	SUM(Loans.Amount) AS TotalLoanAmount,
+	MAX(Loans.Interest) AS MaxInterest,
+	MIN(Employees.Salary) AS MinEmployeeSalary
+FROM Employees
+INNER JOIN EmployeesLoans
+  ON Employees.EmployeeID = EmployeesLoans.EmployeeID
+INNER JOIN Loans
+  ON EmployeesLoans.LoanID = Loans.LoanID

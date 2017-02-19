@@ -1,0 +1,14 @@
+SELECT
+	Tickets.TicketID,
+	Airports.AirportName AS Destination, 
+	CONCAT(Customers.FirstName, ' ', Customers.LastName) AS CustomerName
+FROM Tickets
+INNER JOIN Customers
+  ON Tickets.CustomerID = Customers.CustomerID
+INNER JOIN Flights
+  ON Tickets.FlightID = Flights.FlightID
+INNER JOIN Airports
+  ON Flights.DestinationAirportID = Airports.AirportID
+WHERE Tickets.Price < 5000
+	AND Tickets.Class = 'First'
+ORDER BY Tickets.TicketID

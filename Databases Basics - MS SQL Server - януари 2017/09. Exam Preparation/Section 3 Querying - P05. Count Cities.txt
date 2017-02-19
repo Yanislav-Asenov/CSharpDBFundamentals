@@ -1,0 +1,13 @@
+SELECT
+	Cities.CityName,
+	Branches.[Name],
+	COUNT(Employees.EmployeeID) AS EmployeesCount
+FROM Employees
+INNER JOIN Branches
+  ON Branches.BranchID = Employees.BranchID
+INNER JOIN Cities
+  ON Branches.CityID = Cities.CityID
+WHERE (Cities.CityID != 4 
+	AND Cities.CityID != 5)
+GROUP BY Cities.CityName, Branches.[Name]
+HAVING COUNT(Employees.EmployeeID) >= 3

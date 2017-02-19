@@ -1,0 +1,15 @@
+SELECT TOP 3
+	Employees.FirstName,
+	Cities.CityName
+FROM Employees
+INNER JOIN Branches
+  ON Employees.BranchID = Branches.BranchID
+INNER JOIN Cities
+  ON Branches.CityID = Cities.CityID
+
+SELECT TOP 3
+	Customers.FirstName,
+	Cities.CityName
+FROM Customers
+INNER JOIN Cities
+  ON Customers.CityID = Cities.CityID

@@ -1,0 +1,9 @@
+CREATE FUNCTION udf_ConcatString (@firstString VARCHAR(MAX), @secondString VARCHAR(MAX))
+RETURNS VARCHAR(MAX)
+BEGIN
+	DECLARE @firstStringReversed VARCHAR(MAX) = REVERSE(@firstString)
+	DECLARE @secondStringReversed VARCHAR(MAX) = REVERSE(@secondString)
+	DECLARE @resultString VARCHAR(MAX) = CONCAT(@firstStringReversed, @secondStringReversed)
+
+	RETURN @resultString
+END

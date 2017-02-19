@@ -1,0 +1,8 @@
+SELECT
+	Customers.CustomerID,
+	Customers.Height
+FROM Accounts
+RIGHT JOIN Customers
+  ON Accounts.CustomerID = Customers.CustomerID
+WHERE Accounts.CustomerID IS NULL
+	AND Customers.Height BETWEEN 1.74 AND 2.04

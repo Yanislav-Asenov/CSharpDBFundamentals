@@ -1,0 +1,14 @@
+SELECT
+	Customers.CustomerID,
+	CONCAT(Customers.FirstName, CONCAT(' ', Customers.LastName)) AS FullName,
+	Towns.TownName AS HomeTown
+FROM Customers
+INNER JOIN Tickets
+  ON Tickets.CustomerID = Customers.CustomerID
+INNER JOIN Flights
+  ON Tickets.FlightID = Flights.FlightID AND Flights.Status = 'Departing'
+INNER JOIN Airports
+  ON Flights.OriginAirportID = Airports.AirportID AND Airports.TownID = Customers.HomeTownID
+INNER JOIN Towns
+  ON Customers.HomeTownID = Towns.TownID
+ORDER BY Customers.CustomerID ASC

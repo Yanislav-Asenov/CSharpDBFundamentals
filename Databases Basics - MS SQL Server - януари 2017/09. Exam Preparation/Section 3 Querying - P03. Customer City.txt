@@ -1,0 +1,13 @@
+SELECT
+	CustomerID,
+	FirstName,
+	LastName,
+	Gender,
+	Cities.CityName
+FROM Customers
+INNER JOIN Cities
+  ON Customers.CityID = Cities.CityID
+WHERE (Customers.LastName LIKE 'Bu%'
+	OR Customers.FirstName LIKE '%a')
+	AND LEN(Cities.CityName) >= 8
+ORDER BY Customers.CustomerID ASC

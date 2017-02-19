@@ -1,0 +1,13 @@
+CREATE PROCEDURE usp_TakeLoan(@CustomerID INT, @LoanAmount DECIMAL(18, 2), @Interest DECIMAL(4, 2), @StartDate DATE)
+AS
+BEGIN TRANSACTION [CreateLoan]
+
+IF(@LoanAmount < 0.01 OR @LoanAmount > 100000)
+BEGIN
+	RAISERROR('Invalid Loan Amount.', 16, 1)
+	ROLLBACK TRANSACTION [CreateLoan]
+END
+
+INSERT INTO Loans(StartDate, Amount, Interest, ExpirationDate, CustomerID)
+VALUES (@StartDate, @LoanAmount, @Interest, NULL, @CustomerID)
+COMMIT TRANSACTION [CreateLoan]

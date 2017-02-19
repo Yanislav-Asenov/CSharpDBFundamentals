@@ -1,0 +1,11 @@
+SELECT TOP 5
+	Employees.EmployeeID,
+	Employees.FirstName,
+	Accounts.AccountNumber
+FROM Employees
+INNER JOIN EmployeesAccounts
+  ON Employees.EmployeeID = EmployeesAccounts.EmployeeID
+INNER JOIN Accounts
+  ON EmployeesAccounts.AccountID = Accounts.AccountID
+WHERE YEAR(Accounts.StartDate) > 2012
+ORDER BY Employees.FirstName DESC

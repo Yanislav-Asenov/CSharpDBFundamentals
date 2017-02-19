@@ -1,0 +1,14 @@
+SELECT
+	departingFlights.AirportID,
+	departingFlights.AirportName,
+	COUNT(departingFlights.CustomerID) AS Passengers
+FROM (SELECT t.CustomerID, a.AirportID, a.AirportName 
+	  FROM Flights f
+	  INNER JOIN Tickets AS t
+		ON f.FlightID = t.FlightID
+	  INNER JOIN Airports AS a
+		ON f.OriginAirportID = a.AirportID
+      WHERE f.Status = 'Departing') AS departingFlights
+GROUP BY departingFlights.AirportID, departingFlights.AirportName
+HAVING COUNT(departingFlights.CustomerID) > 0
+ORDER BY departingFlights.AirportID

@@ -1,0 +1,10 @@
+SELECT TOP 5
+	a.AirlineID,
+	a.AirlineName,
+	a.Nationality,
+	MAX(a.Rating) AS Rating
+FROM Airlines AS a
+INNER JOIN Flights AS f
+  ON a.AirlineID = f.AirlineID
+GROUP BY a.AirlineID, a.AirlineName, a.Nationality
+ORDER BY Rating DESC, AirlineID

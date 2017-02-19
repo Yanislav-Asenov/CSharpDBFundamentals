@@ -1,0 +1,11 @@
+CREATE PROCEDURE usp_CustomersWithUnexpiredLoans(@customerID INT)
+AS
+SELECT
+	Customers.CustomerID,
+	Customers.FirstName,
+	Loans.LoanID
+FROM Loans
+INNER JOIN Customers
+  ON Loans.CustomerID = Customers.CustomerID
+WHERE Loans.ExpirationDate IS NULL
+	AND Customers.CustomerID = @customerId

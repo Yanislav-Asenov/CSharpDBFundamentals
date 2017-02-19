@@ -1,0 +1,11 @@
+SELECT DISTINCT
+	Customers.CustomerID,
+	CONCAT(Customers.FirstName, CONCAT(' ', Customers.LastName)) AS FullName,
+	2016 - DATEPART(YEAR, Customers.DateOfBirth) AS Age
+FROM Customers
+INNER JOIN Tickets
+  ON Customers.CustomerID = Tickets.CustomerID
+INNER JOIN Flights
+  ON Tickets.FlightID = Flights.FlightID
+WHERE Flights.Status = 'Departing'
+ORDER BY Age, Customers.CustomerID

@@ -1,0 +1,19 @@
+CREATE TRIGGER tr_LogAccountOnDelete
+ON Accounts
+INSTEAD OF DELETE
+AS
+BEGIN
+	IF @@ROWCOUNT = 0 RETURN;
+
+
+	DELETE FROM EmployeesAccounts
+	WHERE EmployeesAccounts.AccountID = (SELECT AccountID FROM deleted)
+
+	DELETE FROM Accounts
+	WHERE Accounts.AccountID = (SELECT AccountID FROM deleted)
+
+	INSERT INTO AccountLogs(AccountID, AccountNumber, StartDate, CustomerID) 
+	SELECT * 
+	FROM deleted
+
+END

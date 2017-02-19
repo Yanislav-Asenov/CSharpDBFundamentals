@@ -1,0 +1,12 @@
+SELECT TOP 5
+	Customers.CustomerID,
+	Loans.Amount
+FROM Loans
+INNER JOIN Customers
+  ON Loans.CustomerID = Customers.CustomerID
+WHERE Loans.Amount > (SELECT AVG(l.Amount)
+					  FROM Loans AS l
+					  INNER JOIN Customers AS c
+					    ON l.CustomerID = c.CustomerID
+					  WHERE C.Gender = 'M')
+ORDER BY Customers.LastName ASC

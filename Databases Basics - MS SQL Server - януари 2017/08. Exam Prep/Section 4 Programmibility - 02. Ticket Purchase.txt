@@ -1,0 +1,21 @@
+CREATE PROCEDURE usp_PurchaseTicket(@CustomerID int,
+									@FlightID int, 
+									@TicketPrice decimal(10, 2),
+									@Class varchar(6),
+								    @Seat varchar(5))
+AS
+
+DECLARE @customerBalance decimal(10, 2) = (SELECT Balance FROM CustomerBankAccounts WHERE CustomerID = @CustomerID)
+
+IF (ISNULL(@customerBalance, 0) < @TicketPrice)
+BEGIN
+	RAISERROR('Insufficient bank account balance for ticket purchase.', 16, 1)
+	RETURN;
+END
+
+INSERT INTO Tickets(TicketID, Price, Class, Seat, CustomerID, FlightID)
+VALUES (ISNULL((SELECT TOP 1 TicketID FROM Tickets ORDER BY TicketID DESC), 1) + 1, @TicketPrice, @Class, @Seat, @CustomerID, @FlightID)
+
+UPDATE CustomerBankAccounts
+SET Balance = Balance - @TicketPrice
+WHERE CustomerID = @CustomerID

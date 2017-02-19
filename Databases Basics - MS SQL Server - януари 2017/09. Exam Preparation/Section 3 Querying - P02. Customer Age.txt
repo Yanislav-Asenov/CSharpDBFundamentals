@@ -1,0 +1,6 @@
+SELECT
+	FirstName,
+	DateOfBirth,
+	2016 - YEAR(DateOfBirth) AS Age
+FROM Customers
+WHERE 2016 - YEAR(DateOfBirth) BETWEEN 40 AND 50
