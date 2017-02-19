@@ -1,0 +1,16 @@
+CREATE PROCEDURE usp_AssignProject(@employeeId AS int, @projectId AS int)
+AS
+BEGIN
+
+	DECLARE @employeeProjects int = (SELECT COUNT(*) FROM EmployeesProjects
+									WHERE @employeeId = EmployeeID);
+
+	IF (@employeeProjects >= 3)
+	BEGIN
+		RAISERROR('The employee has too many projects!', 16, 1);
+		RETURN;
+	END
+
+	INSERT INTO EmployeesProjects(EmployeeID, ProjectID)
+	VALUES (@employeeId, @projectId);
+END

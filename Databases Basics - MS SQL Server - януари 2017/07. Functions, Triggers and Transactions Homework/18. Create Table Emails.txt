@@ -1,0 +1,19 @@
+CREATE TRIGGER tr_CreateNewNotiicationEmail
+ON Logs
+AFTER INSERT
+AS
+BEGIN
+
+DECLARE @accountId INT = (SELECT AccountId FROM inserted)
+DECLARE @oldSum NVARCHAR(100) = (SELECT OldSum FROM inserted)
+DECLARE @newSum NVARCHAR(100) = (SELECT NewSum FROM inserted)
+
+DECLARE @recipient INT = @accountId
+DECLARE @subject NVARCHAR(100) = 'Balance change for account: ' + CAST(@accountId AS NVARCHAR(MAX))
+DECLARE @date NVARCHAR(30) = CONVERT(NVARCHAR(20), GETDATE())
+DECLARE @body NVARCHAR(200) = 'On ' + @date + ' your balance was changed from ' + @oldSum + ' to ' + @newSum
+
+INSERT INTO NotificationEmails(Recipient, [Subject], Body)
+VALUES (@recipient, @subject, @body)
+
+END

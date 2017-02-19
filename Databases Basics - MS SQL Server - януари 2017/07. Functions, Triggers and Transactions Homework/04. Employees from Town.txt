@@ -1,0 +1,10 @@
+CREATE PROCEDURE usp_GetEmployeesFromTown(@TownName VARCHAR(MAX))
+AS
+	SELECT e.FirstName,
+		   e.LastName
+	FROM Employees AS e
+	INNER JOIN Addresses AS a
+	ON a.AddressID = e.AddressID
+	INNER JOIN Towns AS t
+	ON a.TownID = t.TownID
+	WHERE t.[Name] = @TownName

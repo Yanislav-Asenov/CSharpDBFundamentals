@@ -1,0 +1,17 @@
+CREATE PROCEDURE usp_GetHoldersWithBalanceHigherThan(@suppliedNumber MONEY)
+AS
+	SELECT 
+		result.FirstName,
+		result.LastName
+	FROM
+		(
+			SELECT
+				ah.FirstName,
+				ah.LastName,
+				SUM(a.Balance) AS MaximumBalance
+			FROM AccountHolders AS ah
+			INNER JOIN Accounts AS a
+			ON a.AccountHolderId = ah.Id
+			GROUP BY ah.FirstName, ah.LastName
+			HAVING SUM(a.Balance) > @suppliedNumber
+		) AS result

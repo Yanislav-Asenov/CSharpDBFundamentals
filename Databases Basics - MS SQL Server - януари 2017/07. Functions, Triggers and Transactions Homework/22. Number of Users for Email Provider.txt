@@ -1,0 +1,11 @@
+SELECT
+	result.EmailProvider AS 'Email Provider',
+	COUNT(result.EmailProvider) AS 'Number Of Users'
+FROM (
+		SELECT
+			SUBSTRING(u.Email, CHARINDEX('@', u.Email) + 1, LEN(u.Email)) AS EmailProvider
+		FROM Users AS u	
+		GROUP BY u.Email
+	 ) AS result
+GROUP BY result.EmailProvider
+ORDER BY 'Number Of Users' DESC, result.EmailProvider ASC

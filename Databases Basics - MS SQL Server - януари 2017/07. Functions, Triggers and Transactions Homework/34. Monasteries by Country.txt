@@ -1,0 +1,60 @@
+CREATE TABLE Monasteries(
+	Id INT PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(100) NOT NULL,
+	CountryCode CHAR(2) NOT NULL,
+	CONSTRAINT FK_Countries_Monasteries FOREIGN KEY(CountryCode)
+	REFERENCES Countries(CountryCode)
+)
+
+
+
+INSERT INTO Monasteries(Name, CountryCode) VALUES
+('Rila Monastery “St. Ivan of Rila”', 'BG'), 
+('Bachkovo Monastery “Virgin Mary”', 'BG'),
+('Troyan Monastery “Holy Mother''s Assumption”', 'BG'),
+('Kopan Monastery', 'NP'),
+('Thrangu Tashi Yangtse Monastery', 'NP'),
+('Shechen Tennyi Dargyeling Monastery', 'NP'),
+('Benchen Monastery', 'NP'),
+('Southern Shaolin Monastery', 'CN'),
+('Dabei Monastery', 'CN'),
+('Wa Sau Toi', 'CN'),
+('Lhunshigyia Monastery', 'CN'),
+('Rakya Monastery', 'CN'),
+('Monasteries of Meteora', 'GR'),
+('The Holy Monastery of Stavronikita', 'GR'),
+('Taung Kalat Monastery', 'MM'),
+('Pa-Auk Forest Monastery', 'MM'),
+('Taktsang Palphug Monastery', 'BT'),
+('Sümela Monastery', 'TR')
+
+
+
+SELECT Countries.CountryCode, Countries.CountryName, COUNT(Rivers.Id) AS RiversCount
+INTO FilteredCountries
+FROM Countries
+INNER JOIN CountriesRivers
+  ON Countries.CountryCode = CountriesRivers.CountryCode
+INNER JOIN Rivers
+  ON CountriesRivers.RiverId = Rivers.Id
+GROUP BY Countries.CountryCode, Countries.CountryName
+HAVING COUNT(Rivers.Id) > 3
+
+UPDATE Countries
+SET IsDeleted = 1
+WHERE Countries.CountryName IN (SELECT CountryName FROM FilteredCountries)
+
+DROP TABLE FilteredCountries
+
+
+
+SELECT Monasteries.[Name], Countries.CountryName
+FROM Monasteries
+INNER JOIN Countries
+  ON Monasteries.CountryCode = Countries.CountryCode
+WHERE Countries.IsDeleted = 0
+ORDER BY Monasteries.[Name]
+
+
+--ALTER TABLE Countries 
+--ADD IsDeleted BIT NOT NULL DEFAULT 0

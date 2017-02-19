@@ -1,0 +1,11 @@
+CREATE PROCEDURE usp_GetTownsStartingWith(@StartingString VARCHAR(MAX))
+AS
+	SELECT [Name]
+	FROM
+		(
+			SELECT [Name],
+					LEFT([Name], LEN(@StartingString)) AS TownNameStartingPart
+			FROM Towns
+		) result
+	WHERE result.TownNameStartingPart = @StartingString
+  

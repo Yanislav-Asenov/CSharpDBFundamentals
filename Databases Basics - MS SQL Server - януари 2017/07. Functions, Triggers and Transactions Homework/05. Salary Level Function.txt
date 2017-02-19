@@ -1,0 +1,14 @@
+CREATE FUNCTION ufn_GetSalaryLevel(@inputSalary MONEY)
+RETURNS VARCHAR(MAX)
+BEGIN
+	IF (@inputSalary < 30000)
+	BEGIN
+		RETURN 'Low'
+	END
+	ELSE IF (@inputSalary BETWEEN 30000 AND 50000)
+	BEGIN
+		RETURN 'Average'
+	END
+	
+	RETURN 'High'
+END

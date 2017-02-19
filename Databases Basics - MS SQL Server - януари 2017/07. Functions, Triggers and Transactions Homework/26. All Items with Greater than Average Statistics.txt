@@ -1,0 +1,22 @@
+SELECT
+	i.[Name],
+	i.Price,
+	i.MinLevel,
+	itemsStats.Strength,
+	itemsStats.Defence,
+	itemsStats.Speed,
+	itemsStats.Luck,
+	itemsStats.Mind
+FROM Items AS i
+INNER JOIN [Statistics] AS itemsStats
+  ON itemsStats.Id = i.StatisticId
+WHERE itemsStats.Mind > (SELECT AVG(iStats.Mind) AS 'AverageMind' FROM Items AS i
+						   INNER JOIN [Statistics] AS iStats
+						     ON iStats.Defence = i.StatisticId)
+	AND itemsStats.Speed > (SELECT AVG(iStats.Speed) AS 'AverageSpeed' FROM Items AS i
+						   INNER JOIN [Statistics] AS iStats
+						     ON iStats.Defence = i.StatisticId)
+    AND itemsStats.Luck > (SELECT AVG(iStats.Luck) AS 'AverageLuck' FROM Items AS i
+						   INNER JOIN [Statistics] AS iStats
+						     ON iStats.Defence = i.StatisticId)
+ORDER BY i.[Name]

@@ -1,0 +1,19 @@
+CREATE FUNCTION ufn_CalculateFutureValue(@startingValue FLOAT, @interestRate FLOAT, @numberOfYears FLOAT)
+RETURNS NVARCHAR(MAX)
+BEGIN
+	DECLARE @resultValue FLOAT
+	DECLARE @powerResult FLOAT = 1 + @interestRate
+	DECLARE @rate FLOAT = 1 + @interestRate
+	DECLARE @counter INT = 1
+
+	WHILE (@counter < @numberOfYears)
+	BEGIN
+		SET @powerResult = @powerResult * @rate
+
+		SET @counter = @counter + 1
+	END
+
+	SET @resultValue = @startingValue * @powerResult
+	
+	RETURN FORMAT (@resultValue, '#.0000')
+END

@@ -1,0 +1,8 @@
+SELECT Continents.ContinentName,
+       SUM(CAST(ISNULL(Countries.AreaInSqKm, 0) AS BIGINT)) AS CountriesArea,
+	   SUM(CAST(ISNULL(Countries.[Population], 0) AS BIGINT)) AS CountriesPopulation
+FROM Continents
+LEFT JOIN Countries
+  ON Continents.ContinentCode = Countries.ContinentCode
+GROUP BY Continents.ContinentName
+ORDER BY CountriesPopulation DESC

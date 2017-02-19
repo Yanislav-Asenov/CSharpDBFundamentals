@@ -1,0 +1,8 @@
+SELECT
+	Peaks.PeakName,
+	Mountains.MountainRange,
+	Peaks.Elevation
+FROM Peaks
+INNER JOIN Mountains
+  ON Peaks.MountainId = Mountains.Id
+ORDER BY Peaks.Elevation DESC, Peaks.PeakName

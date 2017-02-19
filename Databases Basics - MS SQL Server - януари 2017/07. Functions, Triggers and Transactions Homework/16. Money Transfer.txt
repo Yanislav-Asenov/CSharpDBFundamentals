@@ -1,0 +1,32 @@
+CREATE PROCEDURE usp_TransferMoney(@fromAccountId INT, @destinationAccountId INT, @amount DECIMAL(19, 4))
+AS
+BEGIN TRANSACTION
+	DECLARE @fromNumberOfAccounts INT = (
+											SELECT COUNT(Id)
+											FROM Accounts
+											WHERE Id = @fromAccountId
+										 )
+	DECLARE @destinationNumberOfAccounts INT = (
+													SELECT COUNT(Id)
+													FROM Accounts
+													WHERE Id = @destinationAccountId
+												)
+
+
+IF (@amount <= 0 OR @fromNumberOfAccounts = 0 OR @destinationNumberOfAccounts = 0)
+BEGIN
+	PRINT 'Invalid amount or Id'
+	ROLLBACK TRANSACTION
+END
+ELSE
+BEGIN
+	UPDATE Accounts
+	SET Balance = Balance - @amount
+	WHERE Id = @fromAccountId
+
+	UPDATE Accounts
+	SET Balance = Balance + @amount
+	WHERE Id = @destinationAccountId
+
+	COMMIT TRANSACTION
+END

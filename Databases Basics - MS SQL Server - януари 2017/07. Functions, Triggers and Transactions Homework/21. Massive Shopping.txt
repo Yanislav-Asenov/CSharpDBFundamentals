@@ -1,0 +1,72 @@
+BEGIN TRY
+	BEGIN TRANSACTION [ItemsFrom11To12Transaction]
+
+	DECLARE @userId INT, @userGameId INT --@totalCost MONEY;
+
+	SELECT
+		@userId = Users.Id,
+		@userGameId = UsersGames.Id
+	FROM Users
+	INNER JOIN UsersGames
+      ON Users.Id = UsersGames.UserId
+	INNER JOIN Games
+	  ON UsersGames.GameId = Games.Id
+	WHERE Users.Username = 'Stamat'
+		AND Games.[Name] = 'Safflower'
+
+	SELECT Items.Id, SUM(Items.Price) AS TotalCost
+	INTO ItemsInfo
+	FROM Items
+	WHERE Items.MinLevel BETWEEN 11 AND 12
+	GROUP BY Items.Id
+
+	UPDATE UsersGames
+	SET Cash -= (SELECT SUM(TotalCost) FROM ItemsInfo)
+	WHERE UsersGames.Id = @userGameId
+
+	INSERT INTO UserGameItems(UserGameId, ItemId)
+	SELECT @userGameId, Id FROM ItemsInfo
+
+	DROP TABLE ItemsInfo
+
+	COMMIT TRANSACTION [ItemsFrom11To12Transaction]
+END TRY
+BEGIN CATCH
+	ROLLBACK TRANSACTION [ItemsFrom11To12Transaction]
+END CATCH
+
+
+BEGIN TRY
+	BEGIN TRANSACTION [ItemsFrom19To21Transaction]
+
+	SELECT Items.Id, SUM(Items.Price) AS TotalCost
+	INTO ItemsInfo
+	FROM Items
+	WHERE Items.MinLevel BETWEEN 191 AND 21
+	GROUP BY Items.Id
+
+	UPDATE UsersGames
+	SET Cash -= (SELECT SUM(TotalCost) FROM ItemsInfo)
+	WHERE UsersGames.Id = @userGameId
+
+	INSERT INTO UserGameItems(UserGameId, ItemId)
+	SELECT @userGameId, Id FROM ItemsInfo
+
+	DROP TABLE ItemsInfo
+
+	COMMIT TRANSACTION [ItemsFrom19To21Transaction]
+END TRY
+BEGIN CATCH
+	ROLLBACK TRANSACTION [ItemsFrom19To21Transaction]
+END CATCH
+
+SELECT Items.[Name] AS 'Item Name'
+FROM Games
+INNER JOIN UsersGames
+  ON Games.Id = UsersGames.GameId
+INNER JOIN UserGameItems
+  ON UsersGames.Id = UserGameItems.UserGameId
+INNER JOIN Items
+  ON UserGameItems.ItemId = Items.Id
+WHERE Games.[Name] = 'Safflower'
+ORDER BY Items.[Name]

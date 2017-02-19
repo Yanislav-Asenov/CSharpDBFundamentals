@@ -1,0 +1,14 @@
+CREATE PROCEDURE usp_EmployeesBySalaryLevel(@salaryLevel VARCHAR(10))
+AS
+	SELECT 
+		FirstName,
+		LastName
+	FROM
+		(
+			SELECT
+				e.FirstName,
+				e.LastName,
+				[dbo].[ufn_GetSalaryLevel](e.Salary) AS SalaryLevel
+			FROM Employees AS e
+		) as EmployeesWithSalaryLevel
+	WHERE EmployeesWithSalaryLevel.SalaryLevel = @salaryLevel

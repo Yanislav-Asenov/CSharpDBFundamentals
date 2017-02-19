@@ -1,0 +1,30 @@
+CREATE FUNCTION ufn_CashInUsersGames(@gameName NVARCHAR(100))
+RETURNS @userGameCash TABLE
+(
+    [SumCash] [money] NOT NULL
+)
+BEGIN
+	DECLARE @result MONEY;
+
+	SET @result = 
+				(SELECT
+					SUM(GamesRowsCash.Cash) AS SumCash
+				FROM
+					( 
+						SELECT
+							ug.UserId,
+							ROW_NUMBER() OVER(ORDER BY ug.Cash DESC) AS RowNumber,
+							SUM(ug.Cash) AS Cash
+						FROM UsersGames AS ug
+						INNER JOIN Games AS g
+						ON g.Id = ug.GameId
+						WHERE g.Name = @gameName
+						GROUP BY ug.UserId, ug.Cash
+					 ) AS GamesRowsCash
+				WHERE GamesRowsCash.RowNumber % 2 = 1)
+
+	INSERT INTO @userGameCash(SumCash)
+	VALUES (@result)
+
+	RETURN
+END

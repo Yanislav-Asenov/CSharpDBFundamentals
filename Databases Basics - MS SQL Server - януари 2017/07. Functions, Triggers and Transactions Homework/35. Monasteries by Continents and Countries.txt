@@ -1,0 +1,29 @@
+UPDATE Countries
+SET CountryName = 'Burma'
+WHERE Countries.CountryName = 'Myanmar'
+
+INSERT INTO Monasteries([Name], CountryCode)
+VALUES ('Hanga Abbey', (SELECT CountryCode FROM Countries WHERE Countries.CountryName = 'Tanzania'))
+
+INSERT INTO Monasteries([Name], CountryCode)
+VALUES ('Myin-Tin-Daik', (SELECT CountryCode FROM Countries WHERE Countries.CountryName = 'Myanmar'));
+
+
+
+
+
+WITH monasteriesPerCountry AS (SELECT Countries.CountryCode, COUNT(Monasteries.Id) AS MonasteriesCount
+								FROM Continents
+								INNER JOIN Countries
+								  ON Countries.ContinentCode = Continents.ContinentCode
+								LEFT JOIN Monasteries
+								  ON Monasteries.CountryCode = Countries.CountryCode
+								WHERE Countries.IsDeleted = 0
+								GROUP BY Countries.CountryCode)
+SELECT Continents.ContinentName, Countries.CountryName, monasteriesPerCountry.MonasteriesCount
+FROM Countries
+INNER JOIN monasteriesPerCountry
+  ON Countries.CountryCode = monasteriesPerCountry.CountryCode
+INNER JOIN Continents
+  ON Countries.ContinentCode = Continents.ContinentCode
+ORDER BY monasteriesPerCountry.MonasteriesCount DESC, Countries.CountryName ASC

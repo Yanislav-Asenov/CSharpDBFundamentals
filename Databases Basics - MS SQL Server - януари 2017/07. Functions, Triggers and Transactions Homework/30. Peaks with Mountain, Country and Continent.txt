@@ -1,0 +1,14 @@
+SELECT Peaks.PeakName,
+	   Mountains.MountainRange,
+	   Countries.CountryName,
+	   Continents.ContinentName
+FROM Peaks
+INNER JOIN Mountains
+  ON Peaks.MountainId = Mountains.Id
+INNER JOIN MountainsCountries
+  ON Mountains.Id = MountainsCountries.MountainId
+INNER JOIN Countries
+  ON MountainsCountries.CountryCode = Countries.CountryCode
+INNER JOIN Continents
+  ON Countries.ContinentCode  = Continents.ContinentCode
+ORDER BY Peaks.PeakName, Countries.CountryName

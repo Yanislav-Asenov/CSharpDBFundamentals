@@ -1,0 +1,13 @@
+SELECT Countries.CountryName,
+       Continents.ContinentName,
+	   ISNULL(COUNT(Rivers.Id), 0) AS RiversCount,
+	   ISNULL(SUM(Rivers.[Length]), 0) AS TotalLength
+FROM Countries
+INNER JOIN Continents
+  ON Countries.ContinentCode = Continents.ContinentCode
+LEFT JOIN CountriesRivers
+  ON Countries.CountryCode = CountriesRivers.CountryCode
+LEFT JOIN Rivers
+  ON CountriesRivers.RiverId = Rivers.Id
+GROUP BY Countries.CountryName, Continents.ContinentName
+ORDER BY RiversCount DESC, TotalLength DESC, Countries.CountryName
