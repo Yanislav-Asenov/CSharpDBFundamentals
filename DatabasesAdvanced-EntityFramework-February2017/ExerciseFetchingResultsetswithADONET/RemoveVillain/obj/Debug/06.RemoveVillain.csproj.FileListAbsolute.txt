@@ -1,0 +1,8 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\RemoveVillain\bin\Debug\RemoveVillain.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\RemoveVillain\bin\Debug\RemoveVillain.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\RemoveVillain\bin\Debug\RemoveVillain.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\RemoveVillain\bin\Debug\InitialSetup.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\RemoveVillain\bin\Debug\InitialSetup.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\RemoveVillain\obj\Debug\06.RemoveVillain.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\RemoveVillain\obj\Debug\RemoveVillain.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\RemoveVillain\obj\Debug\RemoveVillain.pdb

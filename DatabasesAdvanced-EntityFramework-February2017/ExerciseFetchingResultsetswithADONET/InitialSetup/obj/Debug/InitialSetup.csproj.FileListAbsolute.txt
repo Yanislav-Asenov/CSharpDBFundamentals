@@ -1,0 +1,1 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\InitialSetup\bin\Debug\InitialSetup.exe.config

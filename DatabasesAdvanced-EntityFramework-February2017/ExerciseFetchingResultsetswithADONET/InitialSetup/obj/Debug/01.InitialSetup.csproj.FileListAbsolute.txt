@@ -1,0 +1,6 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\InitialSetup\obj\Debug\01.InitialSetup.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\InitialSetup\bin\Debug\InitialSetup.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\InitialSetup\bin\Debug\InitialSetup.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\InitialSetup\bin\Debug\InitialSetup.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\InitialSetup\obj\Debug\InitialSetup.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExerciseFetchingResultsetswithADONET\InitialSetup\obj\Debug\InitialSetup.pdb
