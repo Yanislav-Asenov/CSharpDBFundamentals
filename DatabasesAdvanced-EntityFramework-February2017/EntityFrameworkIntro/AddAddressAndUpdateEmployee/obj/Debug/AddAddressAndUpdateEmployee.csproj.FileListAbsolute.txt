@@ -1,0 +1,5 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\AddAddressAndUpdateEmployee\bin\Debug\AddAddressAndUpdateEmployee.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\AddAddressAndUpdateEmployee\bin\Debug\AddAddressAndUpdateEmployee.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\AddAddressAndUpdateEmployee\bin\Debug\AddAddressAndUpdateEmployee.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\AddAddressAndUpdateEmployee\obj\Debug\AddAddressAndUpdateEmployee.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\AddAddressAndUpdateEmployee\obj\Debug\AddAddressAndUpdateEmployee.pdb
