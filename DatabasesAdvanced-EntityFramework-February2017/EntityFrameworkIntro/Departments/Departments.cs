@@ -1,10 +1,10 @@
-﻿using Softuni.Data;
-using System;
-using System.Linq;
-using System.Text;
-
-namespace Departments
+﻿namespace Departments
 {
+    using Softuni.Data;
+    using System;
+    using System.Linq;
+    using System.Text;
+
     public class Departments
     {
         static void Main()

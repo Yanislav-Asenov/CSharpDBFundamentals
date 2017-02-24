@@ -1,0 +1,11 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\bin\Debug\IncreaseSalaries.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\bin\Debug\IncreaseSalaries.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\bin\Debug\IncreaseSalaries.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\bin\Debug\Softuni.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\bin\Debug\Softuni.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\obj\Debug\IncreaseSalaries.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\IncreaseSalaries\obj\Debug\IncreaseSalaries.pdb

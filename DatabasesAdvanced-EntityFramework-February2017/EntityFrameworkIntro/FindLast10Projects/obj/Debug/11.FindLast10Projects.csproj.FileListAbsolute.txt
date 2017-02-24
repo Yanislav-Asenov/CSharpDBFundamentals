@@ -1,0 +1,12 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\bin\Debug\FindLast10Projects.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\bin\Debug\FindLast10Projects.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\bin\Debug\FindLast10Projects.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\bin\Debug\Softuni.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\bin\Debug\Softuni.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\obj\Debug\11.FindLast10Projects.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\obj\Debug\FindLast10Projects.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindLast10Projects\obj\Debug\FindLast10Projects.pdb

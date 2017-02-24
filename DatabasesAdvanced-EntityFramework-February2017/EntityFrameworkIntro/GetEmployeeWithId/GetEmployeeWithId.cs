@@ -1,9 +1,9 @@
-﻿using Softuni.Data;
-using System.Linq;
-using System.Text;
-
-namespace GetEmployeeWithId
+﻿namespace GetEmployeeWithId
 {
+    using Softuni.Data;
+    using System.Linq;
+    using System.Text;
+
     public class GetEmployeeWithId
     {
         static void Main()

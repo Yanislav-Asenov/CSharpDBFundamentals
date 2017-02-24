@@ -1,0 +1,1 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\FindEmployeesByFirstName.exe.config

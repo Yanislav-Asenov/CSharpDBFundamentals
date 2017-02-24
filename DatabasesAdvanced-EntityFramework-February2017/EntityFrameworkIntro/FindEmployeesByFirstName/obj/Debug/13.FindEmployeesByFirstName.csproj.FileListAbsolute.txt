@@ -1,0 +1,11 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\FindEmployeesByFirstName.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\FindEmployeesByFirstName.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\FindEmployeesByFirstName.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\Softuni.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\Softuni.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\obj\Debug\FindEmployeesByFirstName.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkIntro\FindEmployeesByFirstName\obj\Debug\FindEmployeesByFirstName.pdb
