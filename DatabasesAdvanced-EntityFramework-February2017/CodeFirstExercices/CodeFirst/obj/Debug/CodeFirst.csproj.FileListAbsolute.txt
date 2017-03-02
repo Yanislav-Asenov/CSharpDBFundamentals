@@ -10,3 +10,7 @@ C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramew
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\CodeFirst\bin\Debug\EntityFramework.xml
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\CodeFirst\obj\Debug\CodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\CodeFirst\bin\Debug\Hospital.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\CodeFirst\bin\Debug\Hospital.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\CodeFirst\bin\Debug\Users.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\CodeFirst\bin\Debug\Users.Models.pdb

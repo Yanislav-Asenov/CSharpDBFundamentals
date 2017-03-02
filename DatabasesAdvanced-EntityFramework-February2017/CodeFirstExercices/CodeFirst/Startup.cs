@@ -1,78 +1,177 @@
 ﻿namespace CodeFirst
 {
     using Gringotts.Models;
+    using Hospital.Models;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity.Validation;
+    using System.Linq;
+    using System.Text;
+    using Users.Models;
 
     class Startup
     {
-        private static readonly GringottsDbContext _dbContext = new GringottsDbContext();
+        private static readonly GringottsDbContext _gringottsDbContext = new GringottsDbContext();
+        private static readonly HospitalDbContext _hospitalDbContext = new HospitalDbContext();
+        private static readonly UsersDbContext _usersDbContext = new UsersDbContext();
 
         static void Main()
         {
-            //CreateDbAndInsertData(); 07
-            //CreateUsersTableAndInsertData(); 08
+            // CreateDbAndInsertData(); 07
+            // CreateUsersTableAndInsertData(); 08 Method is commented out
+            // CreateHospitalDbAndInsertData(); 09 - 10
+            // CreateUsersDb(); 11 Data inserted through SQL Management Studio
+            // PrintUsersbyEmailProvider 11
+            // PrintUsersByEmailProvider("d.edu"); 11
+            // PrintUsersByEmailProvider("t.org"); 11
+            // RemoveInactiveUsers(new DateTime(2013, 5, 1)); 12
+            // RemoveInactiveUsers(new DateTime(2014, 4, 10)); 12
+            // RemoveInactiveUsers(new DateTime(2013, 12, 12)); 12
         }
 
-        static void CreateUsersTableAndInsertData()
+        static void RemoveInactiveUsers(DateTime targetDate)
         {
-            var usersToAdd = new List<User>()
+            var usersToDelete = _usersDbContext.Users
+                .Where(u => u.LastTimeLoggedIn < targetDate)
+                .ToList();
+
+            int numberOfUsersDeleted = 0;
+            usersToDelete.ForEach(u =>
             {
-                new User
+                u.IsDeleted = true;
+                numberOfUsersDeleted++;
+            });
+
+            _usersDbContext.SaveChanges();
+            Console.WriteLine($"{numberOfUsersDeleted} users have been deleted");
+        }
+
+        static void PrintUsersByEmailProvider(string emailProvider)
+        {
+            var usersToPrint = _usersDbContext.Users
+                .Where(u => u.Email.EndsWith(emailProvider))
+                .Select(u => new
                 {
-                    Username = "Pesho",
-                    Age = 50,
-                    Email = "pesho@gmail.com",
-                    IsDeleted = false,
-                    LastTimeLoggedIn = DateTime.Now,
-                    Password = "1Af_10123",
-                    ProfilePicture = null,
-                    RegisteredOn = new DateTime(2013, 12, 12)
+                    Username = u.Username,
+                    Email = u.Email
+                })
+                .ToList();
+
+            StringBuilder content = new StringBuilder();
+
+            usersToPrint.ForEach(u =>
+            {
+                if (u.Email.EndsWith(emailProvider))
+                {
+                    content.AppendLine($"{u.Username} {u.Email}");
+                }
+            });
+
+            Console.Write(content);
+        }
+
+        static void CreateUsersDb()
+        {
+            var users = _usersDbContext.Users.ToList();
+        }
+
+        static void CreateHospitalDbAndInsertData()
+        {
+            var gosho = new Patient()
+            {
+                FirstName = "Gosho",
+                LastName = "Goshov",
+                Address = "ul. Gosho",
+                DateOfBirth = new DateTime(2010, 12, 10),
+                Email = "gosho.goshov@gmail.com",
+                IsMedicalInsured = true,
+                Picture = null,
+                Diagnoses = new List<Diagnosis>()
+                {
+                    new Diagnosis()
+                    {
+                        Name = "Остра вирусна инфекция",
+                        Comment = "Ще се мре"
+                    }
                 },
-                new User
+                Visitations = new List<Visit>()
                 {
-                    Username = "Gosho",
-                    Age = 33,
-                    Email = "gosho@gmail.com",
-                    IsDeleted = false,
-                    LastTimeLoggedIn = DateTime.Now,
-                    Password = "1Af_30123",
-                    ProfilePicture = null,
-                    RegisteredOn = new DateTime(2014, 5, 5)
+                    new Visit()
+                    {
+                        Date = new DateTime(2015, 5, 5),
+                        Comment = "Ще се мре"
+                    }
                 },
-                new User
+                PerscribedMedicaments = new List<Medicament>()
                 {
-                    Username = "Stamat",
-                    Age = 44,
-                    Email = "stamat@gmail.com",
-                    IsDeleted = false,
-                    LastTimeLoggedIn = DateTime.Now,
-                    Password = "1Af_34123",
-                    ProfilePicture = null,
-                    RegisteredOn = new DateTime(2015, 2, 2)
+                    new Medicament()
+                    {
+                        Name = "Варикобустер"
+                    }
                 }
             };
 
-            _dbContext.Users.AddRange(usersToAdd);
-
-
-            try
-            {
-                _dbContext.SaveChanges();
-            }
-            catch (DbEntityValidationException ex)
-            {
-                foreach (var dbEntityValidationResult in ex.EntityValidationErrors)
-                {
-                    foreach (var dbValidationError in dbEntityValidationResult.ValidationErrors)
-                    {
-                        Console.WriteLine(dbValidationError.ErrorMessage);
-                    }
-
-                }
-            }
+            _hospitalDbContext.Patients.Add(gosho);
+            _hospitalDbContext.SaveChanges();
         }
+
+        //static void CreateUsersTableAndInsertData()
+        //{
+        //    var usersToAdd = new List<User>()
+        //    {
+        //        new User
+        //        {
+        //            Username = "Pesho",
+        //            Age = 50,
+        //            Email = "pesho@gmail.com",
+        //            IsDeleted = false,
+        //            LastTimeLoggedIn = DateTime.Now,
+        //            Password = "1Af_10123",
+        //            ProfilePicture = null,
+        //            RegisteredOn = new DateTime(2013, 12, 12)
+        //        },
+        //        new User
+        //        {
+        //            Username = "Gosho",
+        //            Age = 33,
+        //            Email = "gosho@gmail.com",
+        //            IsDeleted = false,
+        //            LastTimeLoggedIn = DateTime.Now,
+        //            Password = "1Af_30123",
+        //            ProfilePicture = null,
+        //            RegisteredOn = new DateTime(2014, 5, 5)
+        //        },
+        //        new User
+        //        {
+        //            Username = "Stamat",
+        //            Age = 44,
+        //            Email = "stamat@gmail.com",
+        //            IsDeleted = false,
+        //            LastTimeLoggedIn = DateTime.Now,
+        //            Password = "1Af_34123",
+        //            ProfilePicture = null,
+        //            RegisteredOn = new DateTime(2015, 2, 2)
+        //        }
+        //    };
+
+        //    _gringottsDbContext.Users.AddRange(usersToAdd);
+
+        //    try
+        //    {
+        //        _gringottsDbContext.SaveChanges();
+        //    }
+        //    catch (DbEntityValidationException ex)
+        //    {
+        //        foreach (var dbEntityValidationResult in ex.EntityValidationErrors)
+        //        {
+        //            foreach (var dbValidationError in dbEntityValidationResult.ValidationErrors)
+        //            {
+        //                Console.WriteLine(dbValidationError.ErrorMessage);
+        //            }
+
+        //        }
+        //    }
+        //}
 
         static void CreateDbAndInsertData()
         {
@@ -119,11 +218,11 @@
                     }
                 };
 
-            _dbContext.WizzardDeposits.AddRange(recordsToAdd);
+            _gringottsDbContext.WizzardDeposits.AddRange(recordsToAdd);
 
             try
             {
-                _dbContext.SaveChanges();
+                _gringottsDbContext.SaveChanges();
             }
             catch (DbEntityValidationException ex)
             {

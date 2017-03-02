@@ -1,0 +1,13 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\bin\Debug\Hospital.Models.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\bin\Debug\Hospital.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\bin\Debug\Hospital.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\obj\Debug\Hospital.Models.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\obj\Debug\Hospital.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\obj\Debug\Hospital.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\obj\Debug\Hospital.Models.Migrations.InitialCreate.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\obj\Debug\Hospital.Models.csproj.GenerateResource.Cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Hospital.Models\obj\Debug\Hospital.Models.Migrations.AddDoctor.resources

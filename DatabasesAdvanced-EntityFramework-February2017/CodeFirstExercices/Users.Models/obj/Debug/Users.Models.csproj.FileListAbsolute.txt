@@ -1,0 +1,10 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\bin\Debug\Users.Models.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\bin\Debug\Users.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\bin\Debug\Users.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\obj\Debug\Users.Models.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\obj\Debug\Users.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstExercices\Users.Models\obj\Debug\Users.Models.pdb

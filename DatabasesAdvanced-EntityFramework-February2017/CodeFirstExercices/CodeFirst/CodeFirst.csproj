@@ -64,6 +64,14 @@
       <Project>{7c0d3d49-5c05-4ca4-9d07-bf026491fc9a}</Project>
       <Name>Gringotts.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Hospital.Models\Hospital.Models.csproj">
+      <Project>{0E9EFA79-AAFD-46E8-97A6-46787AC4B2EF}</Project>
+      <Name>Hospital.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Users.Models\Users.Models.csproj">
+      <Project>{D8F3A8E1-7DC6-4741-9B88-241B89876D4E}</Project>
+      <Name>Users.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
