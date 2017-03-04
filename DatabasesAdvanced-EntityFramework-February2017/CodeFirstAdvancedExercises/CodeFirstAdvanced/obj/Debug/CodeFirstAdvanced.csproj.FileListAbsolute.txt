@@ -1,0 +1,14 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\CodeFirstAdvanced.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\CodeFirstAdvanced.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\CodeFirstAdvanced.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\LocalStore.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\LocalStore.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\obj\Debug\CodeFirstAdvanced.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\obj\Debug\CodeFirstAdvanced.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\obj\Debug\CodeFirstAdvanced.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\Sales.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\CodeFirstAdvanced\bin\Debug\Sales.Models.pdb

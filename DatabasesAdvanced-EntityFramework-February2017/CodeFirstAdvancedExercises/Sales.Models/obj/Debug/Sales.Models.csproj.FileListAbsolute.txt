@@ -1,0 +1,17 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\bin\Debug\Sales.Models.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\bin\Debug\Sales.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\bin\Debug\Sales.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\obj\Debug\Sales.Models.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\obj\Debug\Sales.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\obj\Debug\Sales.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\obj\Debug\Sales.Models.Migrations.InitialCreate.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\obj\Debug\Sales.Models.csproj.GenerateResource.Cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\obj\Debug\Sales.Models.Migrations.ProductsAddColumnDescription.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\bin\Debug\Castle.Core.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\bin\Debug\Castle.Core.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\obj\Debug\Sales.Models.Migrations.SalesAddDateDefault.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\CodeFirstAdvancedExercises\Sales.Models\obj\Debug\Sales.Models.Migrations.CustomersAddAgeDefaultValue.resources
