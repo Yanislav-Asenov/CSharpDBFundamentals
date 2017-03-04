@@ -22,6 +22,7 @@
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
+        [MaxLength(1024 * 1024)]
         [DataType(DataType.Upload)]
         public byte[] ProfilePicture { get; set; }
 
