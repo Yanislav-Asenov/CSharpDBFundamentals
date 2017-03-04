@@ -1,0 +1,5 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.Model\bin\Debug\StudentSystem.Model.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.Model\bin\Debug\StudentSystem.Model.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.Model\obj\Debug\StudentSystem.Model.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.Model\obj\Debug\StudentSystem.Model.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.Model\obj\Debug\StudentSystem.Model.pdb
