@@ -14,6 +14,6 @@
         [MaxLength(50)]
         public string Specialty { get; set; }
 
-        public virtual List<Visit> Visitations { get; set; }
+        public virtual ICollection<Visit> Visitations { get; set; } = new HashSet<Visit>();
     }
 }

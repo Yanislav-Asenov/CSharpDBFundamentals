@@ -1,7 +1,6 @@
 ﻿namespace Hospital.Models
 {
     using System;
-    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
     public class Visit
@@ -14,10 +13,12 @@
         [MaxLength(500)]
         public string Comment { get; set; }
 
-        public int? DoctorId { get; set; }
+        public int DoctorId { get; set; }
 
         public virtual Doctor Doctor { get; set; }
 
-        public virtual List<Patient> Patients { get; set; } = new List<Patient>();
+        public int PatientId { get; set; }
+
+        public Patient Patient { get; set; }
     }
 }

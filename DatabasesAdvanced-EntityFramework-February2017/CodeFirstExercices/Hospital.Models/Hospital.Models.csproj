@@ -63,6 +63,14 @@
     <Compile Include="Migrations\201703022143185_AddDoctor.Designer.cs">
       <DependentUpon>201703022143185_AddDoctor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703041312369_FixPatientProblem.cs" />
+    <Compile Include="Migrations\201703041312369_FixPatientProblem.Designer.cs">
+      <DependentUpon>201703041312369_FixPatientProblem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703041316575_VisitationsAddPatientProperty.cs" />
+    <Compile Include="Migrations\201703041316575_VisitationsAddPatientProperty.Designer.cs">
+      <DependentUpon>201703041316575_VisitationsAddPatientProperty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +86,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703022143185_AddDoctor.resx">
       <DependentUpon>201703022143185_AddDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703041312369_FixPatientProblem.resx">
+      <DependentUpon>201703041312369_FixPatientProblem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703041316575_VisitationsAddPatientProperty.resx">
+      <DependentUpon>201703041316575_VisitationsAddPatientProperty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

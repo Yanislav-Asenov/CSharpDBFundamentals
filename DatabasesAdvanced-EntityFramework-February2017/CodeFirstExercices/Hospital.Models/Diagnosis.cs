@@ -13,6 +13,6 @@
         [MaxLength(500)]
         public string Comment { get; set; }
 
-        public virtual List<Patient> Patients { get; set; } = new List<Patient>();
+        public virtual ICollection<Patient> Patients { get; set; } = new HashSet<Patient>();
     }
 }

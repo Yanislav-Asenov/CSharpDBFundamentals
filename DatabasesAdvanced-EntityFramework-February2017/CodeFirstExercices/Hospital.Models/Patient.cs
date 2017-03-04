@@ -28,10 +28,10 @@
 
         public bool IsMedicalInsured { get; set; }
 
-        public virtual List<Visit> Visitations { get; set; } = new List<Visit>();
+        public virtual ICollection<Visit> Visitations { get; set; } = new HashSet<Visit>();
 
-        public virtual List<Diagnosis> Diagnoses { get; set; } = new List<Diagnosis>();
+        public virtual ICollection<Diagnosis> Diagnoses { get; set; } = new HashSet<Diagnosis>();
 
-        public virtual List<Medicament> PerscribedMedicaments { get; set; } = new List<Medicament>();
+        public virtual ICollection<Medicament> PerscribedMedicaments { get; set; } = new HashSet<Medicament>();
     }
 }
