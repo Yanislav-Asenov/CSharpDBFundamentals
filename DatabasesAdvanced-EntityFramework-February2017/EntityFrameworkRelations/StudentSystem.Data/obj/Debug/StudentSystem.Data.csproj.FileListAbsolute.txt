@@ -13,3 +13,4 @@ C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramew
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.Data\obj\Debug\StudentSystem.Data.Migrations.AddCourseAndCourseResources.resources
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.Data\obj\Debug\StudentSystem.Data.csproj.GenerateResource.Cache
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.Data\obj\Debug\StudentSystem.Data.Migrations.InitialCreate.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.Data\obj\Debug\StudentSystem.Data.Migrations.AddLicenses.resources

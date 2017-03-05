@@ -59,6 +59,10 @@
     <Compile Include="Migrations\201703042127050_InitialCreate.Designer.cs">
       <DependentUpon>201703042127050_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703051400158_AddLicenses.cs" />
+    <Compile Include="Migrations\201703051400158_AddLicenses.Designer.cs">
+      <DependentUpon>201703051400158_AddLicenses.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StudentSystemDbContext.cs" />
@@ -79,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703042127050_InitialCreate.resx">
       <DependentUpon>201703042127050_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703051400158_AddLicenses.resx">
+      <DependentUpon>201703051400158_AddLicenses.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

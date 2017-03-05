@@ -1,7 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace StudentSystem.Model
+﻿namespace StudentSystem.Model
 {
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+
     public class Resource
     {
         public int Id { get; set; }
@@ -19,5 +20,7 @@ namespace StudentSystem.Model
         public int CourseId { get; set; }
 
         public Course Course { get; set; }
+
+        public ICollection<License> Licenses { get; set; }
     }
 }
