@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Model", "Gringott
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.UI", "Gringotts.UI\Gringotts.UI.csproj", "{C1B8D393-BFEB-4965-8B91-070AEAB6B99D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmakerSystem.Data", "BookmakerSystem.Data\BookmakerSystem.Data.csproj", "{FDD6A384-17C2-4B8F-9DBD-79E4877FE55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmakerSystem.Model", "BookmakerSystem.Model\BookmakerSystem.Model.csproj", "{B0206B27-6AD2-4902-9B4C-A656674AC293}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{C1B8D393-BFEB-4965-8B91-070AEAB6B99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1B8D393-BFEB-4965-8B91-070AEAB6B99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1B8D393-BFEB-4965-8B91-070AEAB6B99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD6A384-17C2-4B8F-9DBD-79E4877FE55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD6A384-17C2-4B8F-9DBD-79E4877FE55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD6A384-17C2-4B8F-9DBD-79E4877FE55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD6A384-17C2-4B8F-9DBD-79E4877FE55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0206B27-6AD2-4902-9B4C-A656674AC293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0206B27-6AD2-4902-9B4C-A656674AC293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0206B27-6AD2-4902-9B4C-A656674AC293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0206B27-6AD2-4902-9B4C-A656674AC293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

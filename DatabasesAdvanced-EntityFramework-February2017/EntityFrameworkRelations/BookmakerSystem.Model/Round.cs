@@ -1,0 +1,11 @@
+﻿namespace BookmakerSystem.Model
+{
+    using System.Collections.Generic;
+
+    public class Round
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public ICollection<Game> Games { get; set; } = new HashSet<Game>();
+    }
+}
