@@ -21,6 +21,6 @@
 
         public Course Course { get; set; }
 
-        public ICollection<License> Licenses { get; set; }
+        public ICollection<License> Licenses { get; set; } = new HashSet<License>();
     }
 }

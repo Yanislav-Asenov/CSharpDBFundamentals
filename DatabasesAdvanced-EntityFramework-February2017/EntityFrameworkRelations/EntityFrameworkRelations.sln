@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSystem.Model", "Stud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSystem.UI", "StudentSystem.UI\StudentSystem.UI.csproj", "{BFA55E88-1E83-48FD-AD7C-12A177BA9924}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Data", "Gringotts.Data\Gringotts.Data.csproj", "{24B14622-8EE1-43C5-8E27-3F506092765F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Model", "Gringotts.Model\Gringotts.Model.csproj", "{ECD863EC-CD54-426E-8538-B18223069EC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{BFA55E88-1E83-48FD-AD7C-12A177BA9924}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFA55E88-1E83-48FD-AD7C-12A177BA9924}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFA55E88-1E83-48FD-AD7C-12A177BA9924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B14622-8EE1-43C5-8E27-3F506092765F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B14622-8EE1-43C5-8E27-3F506092765F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B14622-8EE1-43C5-8E27-3F506092765F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B14622-8EE1-43C5-8E27-3F506092765F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD863EC-CD54-426E-8538-B18223069EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD863EC-CD54-426E-8538-B18223069EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD863EC-CD54-426E-8538-B18223069EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD863EC-CD54-426E-8538-B18223069EC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
