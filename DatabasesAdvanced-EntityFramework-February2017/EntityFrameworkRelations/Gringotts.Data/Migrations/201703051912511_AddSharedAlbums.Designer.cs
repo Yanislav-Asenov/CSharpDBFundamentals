@@ -7,13 +7,13 @@ namespace Gringotts.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class InitialCreate : IMigrationMetadata
+    public sealed partial class AddSharedAlbums : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialCreate));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddSharedAlbums));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703051451254_InitialCreate"; }
+            get { return "201703051912511_AddSharedAlbums"; }
         }
         
         string IMigrationMetadata.Source

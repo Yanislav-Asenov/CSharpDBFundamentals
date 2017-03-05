@@ -52,9 +52,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GringottsDbContext.cs" />
-    <Compile Include="Migrations\201703051451254_InitialCreate.cs" />
-    <Compile Include="Migrations\201703051451254_InitialCreate.Designer.cs">
-      <DependentUpon>201703051451254_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201703051826242_InitialCreate.cs" />
+    <Compile Include="Migrations\201703051826242_InitialCreate.Designer.cs">
+      <DependentUpon>201703051826242_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703051846056_AddTags.cs" />
+    <Compile Include="Migrations\201703051846056_AddTags.Designer.cs">
+      <DependentUpon>201703051846056_AddTags.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703051912511_AddSharedAlbums.cs" />
+    <Compile Include="Migrations\201703051912511_AddSharedAlbums.Designer.cs">
+      <DependentUpon>201703051912511_AddSharedAlbums.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703051934267_AddUserRole.cs" />
+    <Compile Include="Migrations\201703051934267_AddUserRole.Designer.cs">
+      <DependentUpon>201703051934267_AddUserRole.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,8 +82,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201703051451254_InitialCreate.resx">
-      <DependentUpon>201703051451254_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703051826242_InitialCreate.resx">
+      <DependentUpon>201703051826242_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703051846056_AddTags.resx">
+      <DependentUpon>201703051846056_AddTags.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703051912511_AddSharedAlbums.resx">
+      <DependentUpon>201703051912511_AddSharedAlbums.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703051934267_AddUserRole.resx">
+      <DependentUpon>201703051934267_AddUserRole.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

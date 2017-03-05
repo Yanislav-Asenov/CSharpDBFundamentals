@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Data", "Gringotts
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Model", "Gringotts.Model\Gringotts.Model.csproj", "{ECD863EC-CD54-426E-8538-B18223069EC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.UI", "Gringotts.UI\Gringotts.UI.csproj", "{C1B8D393-BFEB-4965-8B91-070AEAB6B99D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ECD863EC-CD54-426E-8538-B18223069EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECD863EC-CD54-426E-8538-B18223069EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECD863EC-CD54-426E-8538-B18223069EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B8D393-BFEB-4965-8B91-070AEAB6B99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B8D393-BFEB-4965-8B91-070AEAB6B99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B8D393-BFEB-4965-8B91-070AEAB6B99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B8D393-BFEB-4965-8B91-070AEAB6B99D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

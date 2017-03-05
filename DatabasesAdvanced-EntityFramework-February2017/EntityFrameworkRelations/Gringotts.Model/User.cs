@@ -39,5 +39,7 @@
         public bool IsDeleted { get; set; }
 
         public ICollection<User> Friends { get; set; } = new HashSet<User>();
+
+        public ICollection<UserAlbum> UserAlbums { get; set; }
     }
 }

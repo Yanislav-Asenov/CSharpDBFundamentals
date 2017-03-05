@@ -12,3 +12,6 @@ C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramew
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\Gringotts.Data\obj\Debug\Gringotts.Data.pdb
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\Gringotts.Data\obj\Debug\Gringotts.Data.Migrations.InitialCreate.resources
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\Gringotts.Data\obj\Debug\Gringotts.Data.csproj.GenerateResource.Cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\Gringotts.Data\obj\Debug\Gringotts.Data.Migrations.AddTags.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\Gringotts.Data\obj\Debug\Gringotts.Data.Migrations.AddSharedAlbums.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\Gringotts.Data\obj\Debug\Gringotts.Data.Migrations.AddUserRole.resources
