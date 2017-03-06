@@ -1,5 +1,6 @@
 ﻿namespace StudentSystem.UI
 {
+    using BookmakerSystem.Data;
     using Data;
     using System;
     using System.Data.Entity.SqlServer;
@@ -10,6 +11,9 @@
     {
         static void Main()
         {
+            var bookmakerDbContext = new BookmakerSystemDbContext();
+            bookmakerDbContext.Games.ToList();
+
             var context = new StudentSystemDbContext();
 
             #region // 01. Lists all students and their homework submissions

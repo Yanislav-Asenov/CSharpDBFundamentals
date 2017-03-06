@@ -33,14 +33,6 @@ namespace BookmakerSystem.Data
                 .HasRequired(team => team.Town)
                 .WithMany(town => town.Teams);
 
-            modelBuilder.Entity<Team>()
-                .HasRequired(t => t.PrimaryKitColor)
-                .WithRequiredPrincipal(c => c.Team);
-
-            modelBuilder.Entity<Team>()
-                .HasRequired(t => t.SecondaryKitColor)
-                .WithRequiredPrincipal(c => c.Team);
-
             modelBuilder.Entity<Town>()
                 .HasRequired(town => town.Country)
                 .WithMany(country => country.Towns);
@@ -85,6 +77,9 @@ namespace BookmakerSystem.Data
             modelBuilder.Entity<Bet>()
                 .HasRequired(b => b.User)
                 .WithMany(u => u.Bets);
+
+            modelBuilder.Entity<BetGame>()
+                .HasKey(bg => new { bg.BetId, bg.GameId });
 
             modelBuilder.Entity<BetGame>()
                 .HasRequired(bg => bg.ResultPrediction)

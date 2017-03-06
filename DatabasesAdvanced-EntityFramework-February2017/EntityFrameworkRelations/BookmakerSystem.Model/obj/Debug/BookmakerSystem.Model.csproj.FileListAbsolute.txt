@@ -1,0 +1,5 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Model\bin\Debug\BookmakerSystem.Model.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Model\bin\Debug\BookmakerSystem.Model.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Model\obj\Debug\BookmakerSystem.Model.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Model\obj\Debug\BookmakerSystem.Model.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Model\obj\Debug\BookmakerSystem.Model.pdb

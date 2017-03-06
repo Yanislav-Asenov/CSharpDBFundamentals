@@ -52,6 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookmakerSystemDbContext.cs" />
+    <Compile Include="Migrations\201703061936380_Initial.cs" />
+    <Compile Include="Migrations\201703061936380_Initial.Designer.cs">
+      <DependentUpon>201703061936380_Initial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -64,6 +68,11 @@
       <Project>{B0206B27-6AD2-4902-9B4C-A656674AC293}</Project>
       <Name>BookmakerSystem.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201703061936380_Initial.resx">
+      <DependentUpon>201703061936380_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

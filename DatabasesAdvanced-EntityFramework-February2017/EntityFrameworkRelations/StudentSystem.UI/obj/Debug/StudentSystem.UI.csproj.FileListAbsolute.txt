@@ -12,3 +12,7 @@ C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramew
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.UI\obj\Debug\StudentSystem.UI.csprojResolveAssemblyReference.cache
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.UI\obj\Debug\StudentSystem.UI.exe
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.UI\obj\Debug\StudentSystem.UI.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.UI\bin\Debug\BookmakerSystem.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.UI\bin\Debug\BookmakerSystem.Model.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.UI\bin\Debug\BookmakerSystem.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\StudentSystem.UI\bin\Debug\BookmakerSystem.Model.pdb

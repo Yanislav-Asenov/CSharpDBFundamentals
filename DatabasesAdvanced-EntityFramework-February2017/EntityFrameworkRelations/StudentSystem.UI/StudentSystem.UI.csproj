@@ -60,6 +60,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BookmakerSystem.Data\BookmakerSystem.Data.csproj">
+      <Project>{FDD6A384-17C2-4B8F-9DBD-79E4877FE55D}</Project>
+      <Name>BookmakerSystem.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookmakerSystem.Model\BookmakerSystem.Model.csproj">
+      <Project>{b0206b27-6ad2-4902-9b4c-a656674ac293}</Project>
+      <Name>BookmakerSystem.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StudentSystem.Data\StudentSystem.Data.csproj">
       <Project>{F96FEBCC-8D56-437C-977A-B7A3B7C3FB44}</Project>
       <Name>StudentSystem.Data</Name>

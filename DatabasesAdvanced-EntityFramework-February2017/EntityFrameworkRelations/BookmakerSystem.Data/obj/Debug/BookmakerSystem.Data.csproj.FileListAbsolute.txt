@@ -8,3 +8,7 @@ C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramew
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Data\obj\Debug\BookmakerSystem.Data.csprojResolveAssemblyReference.cache
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Data\obj\Debug\BookmakerSystem.Data.dll
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Data\obj\Debug\BookmakerSystem.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Data\bin\Debug\BookmakerSystem.Model.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Data\bin\Debug\BookmakerSystem.Model.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Data\obj\Debug\BookmakerSystem.Data.Migrations.Initial.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\EntityFrameworkRelations\BookmakerSystem.Data\obj\Debug\BookmakerSystem.Data.csproj.GenerateResource.Cache
