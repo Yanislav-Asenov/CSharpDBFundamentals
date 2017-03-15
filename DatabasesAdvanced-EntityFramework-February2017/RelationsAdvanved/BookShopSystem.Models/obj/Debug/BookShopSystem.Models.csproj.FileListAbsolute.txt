@@ -1,4 +1,5 @@
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Models\bin\Debug\BookShopSystem.Models.dll
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Models\bin\Debug\BookShopSystem.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Models\obj\Debug\BookShopSystem.Models.csprojResolveAssemblyReference.cache
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Models\obj\Debug\BookShopSystem.Models.dll
 C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Models\obj\Debug\BookShopSystem.Models.pdb
