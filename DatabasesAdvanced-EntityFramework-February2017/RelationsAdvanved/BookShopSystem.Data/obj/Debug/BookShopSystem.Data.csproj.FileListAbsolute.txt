@@ -1,0 +1,15 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\BookShopSystem.Data.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\BookShopSystem.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\BookShopSystem.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\BookShopSystem.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\BookShopSystem.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\obj\Debug\BookShopSystem.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\obj\Debug\BookShopSystem.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\Import\authors.csv
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\Import\books.csv
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\bin\Debug\Import\categories.csv
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\RelationsAdvanved\BookShopSystem.Data\obj\Debug\BookShopSystem.Data.csprojResolveAssemblyReference.cache

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSystem.Data", "StudentSystem.Data\StudentSystem.Data.csproj", "{F96FEBCC-8D56-437C-977A-B7A3B7C3FB44}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmakerSystem.Data", "BookmakerSystem.Data\BookmakerSystem.Data.csproj", "{FDD6A384-17C2-4B8F-9DBD-79E4877FE55D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmakerSystem.Model", "BookmakerSystem.Model\BookmakerSystem.Model.csproj", "{B0206B27-6AD2-4902-9B4C-A656674AC293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.Data", "BankSystem.Data\BankSystem.Data.csproj", "{685B6083-8BBE-4B77-A1EE-89CBAB58FD87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.Model", "BankSystem.Model\BankSystem.Model.csproj", "{0246388C-5951-416C-A211-B864F833D2D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{B0206B27-6AD2-4902-9B4C-A656674AC293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0206B27-6AD2-4902-9B4C-A656674AC293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0206B27-6AD2-4902-9B4C-A656674AC293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685B6083-8BBE-4B77-A1EE-89CBAB58FD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685B6083-8BBE-4B77-A1EE-89CBAB58FD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685B6083-8BBE-4B77-A1EE-89CBAB58FD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685B6083-8BBE-4B77-A1EE-89CBAB58FD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0246388C-5951-416C-A211-B864F833D2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0246388C-5951-416C-A211-B864F833D2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0246388C-5951-416C-A211-B864F833D2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0246388C-5951-416C-A211-B864F833D2D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
