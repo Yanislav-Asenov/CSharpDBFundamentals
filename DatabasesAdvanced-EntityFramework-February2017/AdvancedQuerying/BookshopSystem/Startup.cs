@@ -5,6 +5,7 @@
     using System.Linq;
     using System.Collections.Generic;
     using BookShopSystem.Models;
+    using System.Globalization;
 
     public class Startup
     {
@@ -25,28 +26,132 @@
             //PrintNotReleasedBooks(context);
             #endregion
             #region 04. Book Titles By Category
-            BookTitlesByCategory(context);
+            //BookTitlesByCategory(context);
             #endregion
+            #region 05. Books Released Before Date
+            //BooksReleasedBeforeDate(context);
+            #endregion
+            #region 06. Authors Search
+            //AuthorsSearch(context);
+            #endregion
+            #region 07. Books Search
+            //BooksSearch(context);
+            #endregion
+            #region 08. Book Titles Search
+            //BookTitlesSearch(context);
+            #endregion
+            #region 09. Count Books
+            //CountBooks(context);
+            #endregion
+            #region 10. Total Book Copies
+            //TotalBookCopies(context);
+            #endregion
+        }
+
+        private static void TotalBookCopies(BookSystemDbContext context)
+        {
+            var authorsWithTotalNumberOfBookCopies = context.Authors
+                .Select(a => new
+                {
+                    a.FirstName,
+                    a.LastName,
+                    TotalBookCopies = a.Books.Sum(b => b.Copies)
+                })
+                .OrderByDescending(a => a.TotalBookCopies)
+                .ToList();
+
+            foreach (var a in authorsWithTotalNumberOfBookCopies)
+            {
+                Console.WriteLine($"{a.FirstName} {a.LastName} - {a.TotalBookCopies}");
+            }
+        }
+
+        private static void CountBooks(BookSystemDbContext context)
+        {
+            var bookTitleTargetLength = int.Parse(Console.ReadLine());
+            var booksCount = context.Books.Count(b => b.Title.Length > bookTitleTargetLength);
+            Console.WriteLine(booksCount);
+        }
+
+        private static void BookTitlesSearch(BookSystemDbContext context)
+        {
+            var inputString = Console.ReadLine();
+            var resultBooks = context.Books
+                .Select(b => new
+                {
+                    b.Id,
+                    b.Title,
+                    AuthorFirstName = b.Author.FirstName,
+                    AuthorLastName = b.Author.LastName
+                })
+                .Where(b => b.AuthorLastName.StartsWith(inputString))
+                .ToList();
+
+            foreach (var book in resultBooks.OrderBy(b => b.Id))
+            {
+                Console.WriteLine(book.Title);
+            }
+        }
+
+        private static void BooksSearch(BookSystemDbContext context)
+        {
+            var inputString = Console.ReadLine();
+            var resultBookTitles = context.Books
+                .Select(b => b.Title)
+                .Where(title => title.Contains(inputString))
+                .ToList();
+
+            foreach (var title in resultBookTitles)
+            {
+                Console.WriteLine(title);
+            }
+        }
+
+        private static void AuthorsSearch(BookSystemDbContext context)
+        {
+            var inputString = Console.ReadLine();
+            var resultAuthors = context.Authors
+                .Select(a => new { a.FirstName, a.LastName })
+                .Where(a => a.FirstName.EndsWith(inputString))
+                .ToList();
+
+            foreach (var a in resultAuthors)
+            {
+                Console.WriteLine($"{a.FirstName} {a.LastName}");
+            }
+        }
+
+        private static void BooksReleasedBeforeDate(BookSystemDbContext context)
+        {
+            var inputDate = DateTime.ParseExact(Console.ReadLine(), "dd-MM-yyyy", CultureInfo.CreateSpecificCulture("en-US"));
+            var resultBooks = context.Books.Where(b => b.ReleaseDate < inputDate)
+                .Select(b => new
+                {
+                    b.Title,
+                    b.Edition,
+                    b.Price
+                })
+                .ToList();
+
+            foreach (var b in resultBooks)
+            {
+                Console.WriteLine($"{b.Title} - {b.Edition} - {b.Price}");
+            }
         }
 
         private static void BookTitlesByCategory(BookSystemDbContext context)
         {
-            var categories = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            var resultCategories = context.Categories
-                .Where(c => categories.Contains(c.Name))
-                .Select(c => new
-                {
-                    Name = c.Name,
-                    Books = c.Books
-                })
-                .ToList();
+            var categoryNames = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            var resultCategories = new List<Category>();
 
-            foreach (var category in resultCategories)
+            var resultCategoriesWithBooks = context.Categories
+                .Where(c => categoryNames.Contains(c.Name))
+                .SelectMany(c => c.Books.Select(b => new { Id = b.Id, Title = b.Title }))
+                .ToList();
+                
+            foreach (var book in resultCategoriesWithBooks)
             {
-                foreach (var book in category.Books.OrderBy(b => b.Id))
-                {
-                    Console.WriteLine(book.Title);
-                }
+                Console.WriteLine(book.Title);
             }
         }
 
