@@ -1,0 +1,13 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\SoftUni.Client.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\SoftUni.Client.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\SoftUni.Client.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\SoftUni.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\SoftUni.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\SoftUni.Data.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\obj\Debug\SoftUni.Client.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\obj\Debug\SoftUni.Client.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\SoftUni.Client\obj\Debug\SoftUni.Client.pdb

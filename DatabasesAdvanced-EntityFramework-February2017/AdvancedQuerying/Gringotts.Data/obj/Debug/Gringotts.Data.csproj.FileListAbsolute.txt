@@ -1,0 +1,10 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\bin\Debug\Gringotts.Data.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\bin\Debug\Gringotts.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\bin\Debug\Gringotts.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\obj\Debug\Gringotts.Data.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\obj\Debug\Gringotts.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\AdvancedQuerying\Gringotts.Data\obj\Debug\Gringotts.Data.pdb
