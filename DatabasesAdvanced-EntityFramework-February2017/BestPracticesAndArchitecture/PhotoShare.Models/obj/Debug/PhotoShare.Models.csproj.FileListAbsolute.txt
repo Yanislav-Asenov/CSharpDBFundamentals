@@ -1,0 +1,5 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BestPracticesAndArchitecture\PhotoShare.Models\bin\Debug\PhotoShare.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BestPracticesAndArchitecture\PhotoShare.Models\bin\Debug\PhotoShare.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BestPracticesAndArchitecture\PhotoShare.Models\obj\Debug\PhotoShare.Models.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BestPracticesAndArchitecture\PhotoShare.Models\obj\Debug\PhotoShare.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BestPracticesAndArchitecture\PhotoShare.Models\obj\Debug\PhotoShare.Models.pdb

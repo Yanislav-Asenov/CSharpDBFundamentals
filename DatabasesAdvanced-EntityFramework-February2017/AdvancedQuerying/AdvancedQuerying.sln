@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookshopSystem.Client", "BookshopSystem\BookshopSystem.Client.csproj", "{253D0B72-28C2-4EFE-BADD-077527B2C087}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShopSystem.Models", "..\RelationsAdvanved\BookShopSystem.Models\BookShopSystem.Models.csproj", "{E1DD9C44-4993-4A25-939B-DD8A41056CCC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShopSystem.Data", "..\RelationsAdvanved\BookShopSystem.Data\BookShopSystem.Data.csproj", "{57AEC075-DDC6-435B-BB61-653E25AC054F}"
@@ -17,16 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Data", "Gringotts
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gringotts.Client", "Gringotts.Client\Gringotts.Client.csproj", "{9E1F668A-05D4-42E0-BBE6-855FDB062DDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookshopSystem.Client", "BookshopSystem.Client\BookshopSystem.Client.csproj", "{253D0B72-28C2-4EFE-BADD-077527B2C087}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{253D0B72-28C2-4EFE-BADD-077527B2C087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{253D0B72-28C2-4EFE-BADD-077527B2C087}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{253D0B72-28C2-4EFE-BADD-077527B2C087}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{253D0B72-28C2-4EFE-BADD-077527B2C087}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E1DD9C44-4993-4A25-939B-DD8A41056CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E1DD9C44-4993-4A25-939B-DD8A41056CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1DD9C44-4993-4A25-939B-DD8A41056CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{9E1F668A-05D4-42E0-BBE6-855FDB062DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1F668A-05D4-42E0-BBE6-855FDB062DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1F668A-05D4-42E0-BBE6-855FDB062DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253D0B72-28C2-4EFE-BADD-077527B2C087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253D0B72-28C2-4EFE-BADD-077527B2C087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253D0B72-28C2-4EFE-BADD-077527B2C087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253D0B72-28C2-4EFE-BADD-077527B2C087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
