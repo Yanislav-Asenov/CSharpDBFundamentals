@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SimpleMapping", "SimpleMapping\01.SimpleMapping.csproj", "{6694E123-5BFE-4701-B40D-E5B3F234F4BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AdvancedMapping", "AdvancedMapping\02.AdvancedMapping.csproj", "{BDCABF93-F2B3-4C52-852A-CBADF32779E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Projection", "Projection\03.Projection.csproj", "{A2B9A238-96DE-4C4B-8A25-9A65A8CE3709}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6694E123-5BFE-4701-B40D-E5B3F234F4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6694E123-5BFE-4701-B40D-E5B3F234F4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6694E123-5BFE-4701-B40D-E5B3F234F4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6694E123-5BFE-4701-B40D-E5B3F234F4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCABF93-F2B3-4C52-852A-CBADF32779E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCABF93-F2B3-4C52-852A-CBADF32779E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCABF93-F2B3-4C52-852A-CBADF32779E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCABF93-F2B3-4C52-852A-CBADF32779E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B9A238-96DE-4C4B-8A25-9A65A8CE3709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B9A238-96DE-4C4B-8A25-9A65A8CE3709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B9A238-96DE-4C4B-8A25-9A65A8CE3709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B9A238-96DE-4C4B-8A25-9A65A8CE3709}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

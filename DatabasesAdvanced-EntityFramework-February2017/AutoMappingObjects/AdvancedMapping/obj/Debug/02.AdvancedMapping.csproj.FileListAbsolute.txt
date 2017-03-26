@@ -1,0 +1,8 @@
+C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\AdvancedMapping\bin\Debug\AdvancedMapping.exe.config
+C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\AdvancedMapping\bin\Debug\AdvancedMapping.exe
+C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\AdvancedMapping\bin\Debug\AdvancedMapping.pdb
+C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\AdvancedMapping\bin\Debug\AutoMapper.dll
+C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\AdvancedMapping\bin\Debug\AutoMapper.xml
+C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\AdvancedMapping\obj\Debug\02.AdvancedMapping.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\AdvancedMapping\obj\Debug\AdvancedMapping.exe
+C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\AdvancedMapping\obj\Debug\AdvancedMapping.pdb
