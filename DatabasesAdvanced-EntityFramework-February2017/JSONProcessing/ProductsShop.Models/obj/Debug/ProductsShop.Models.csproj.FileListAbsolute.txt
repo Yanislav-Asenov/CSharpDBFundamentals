@@ -1,0 +1,5 @@
+c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Models\bin\Debug\ProductsShop.Models.dll
+c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Models\bin\Debug\ProductsShop.Models.pdb
+c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.csprojResolveAssemblyReference.cache
+c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.dll
+c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.pdb

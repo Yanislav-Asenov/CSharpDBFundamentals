@@ -1,8 +1,0 @@
-C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\SimpleMapping\bin\Debug\SimpleMapping.exe.config
-C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\SimpleMapping\bin\Debug\SimpleMapping.exe
-C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\SimpleMapping\bin\Debug\SimpleMapping.pdb
-C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\SimpleMapping\bin\Debug\AutoMapper.dll
-C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\SimpleMapping\bin\Debug\AutoMapper.xml
-C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\SimpleMapping\obj\Debug\01.SimpleMapping.csprojResolveAssemblyReference.cache
-C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\SimpleMapping\obj\Debug\SimpleMapping.exe
-C:\Users\yanislav\documents\visual studio 2017\Projects\AutoMappingObjects\SimpleMapping\obj\Debug\SimpleMapping.pdb
