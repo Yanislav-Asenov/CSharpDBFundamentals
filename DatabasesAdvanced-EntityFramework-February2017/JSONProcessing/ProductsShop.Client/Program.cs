@@ -7,7 +7,6 @@
     using ProductsShop.Data;
     using ProductsShop.Models;
     using System;
-    using System.Collections.Generic;
     using System.IO;
     using System.Linq;
 
@@ -57,9 +56,11 @@
                     })
             };
 
-            var usersAndProductsAsJson = JsonConvert.SerializeObject(usersAndProducts);
+            var usersAndProductsAsJson = JsonConvert.SerializeObject(usersAndProducts, Formatting.Indented);
 
             WriteToFile("users-and-products.json", usersAndProductsAsJson);
+
+            Console.WriteLine(usersAndProductsAsJson);
         }
 
         private static void CategoriesByProducts(ProductsShopDbContext context)
@@ -75,9 +76,11 @@
                 .OrderBy(c => c.Name)
                 .ToList();
 
-            var categoriesAsJson = JsonConvert.SerializeObject(categories);
+            var categoriesAsJson = JsonConvert.SerializeObject(categories, Formatting.Indented);
 
             WriteToFile("categories-by-products.json", categoriesAsJson);
+
+            Console.WriteLine(categoriesAsJson);
         }
 
         private static void SuccessfullySoldProducts(ProductsShopDbContext context)
@@ -89,9 +92,11 @@
                 .ProjectTo<UserDto>()
                 .ToList();
 
-            var usersWithSalesJson = JsonConvert.SerializeObject(usersWithSales);
+            var usersWithSalesJson = JsonConvert.SerializeObject(usersWithSales, Formatting.Indented);
 
             WriteToFile("users-sold-products.json", usersWithSalesJson);
+
+            Console.WriteLine(usersWithSalesJson);
         }
 
         private static void ProductsInRange(ProductsShopDbContext context)
@@ -102,15 +107,16 @@
                 .ProjectTo<ProductDto>()
                 .ToList();
 
-            var productsInRangeJson = JsonConvert.SerializeObject(productsInRange);
+            var productsInRangeJson = JsonConvert.SerializeObject(productsInRange, Formatting.Indented);
 
             WriteToFile("products-in-range.json", productsInRangeJson);
+
+            Console.WriteLine(productsInRangeJson);
         }
 
         private static void WriteToFile(string fileName, string fileContent)
         {
             string exportsFolder = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + "\\Exports";
-            //string expotsFolder = @"C:\Users\yanislav\Documents\Visual Studio 2017\Projects\JSONProcessing\ProductsShop.Client\Exports";
             string filePath = $"{exportsFolder}\\{fileName}";
 
             using (StreamWriter writer = new StreamWriter(filePath, false))

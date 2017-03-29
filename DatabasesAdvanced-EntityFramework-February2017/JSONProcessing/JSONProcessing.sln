@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsShop.Client", "Prod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Models", "CarDealer.Models\CarDealer.Models.csproj", "{0C0FD8FF-0763-4797-8022-25754B235DF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Data", "CarDealer.Data\CarDealer.Data.csproj", "{995AC5E9-44FF-44A9-81D4-F9A20E2594EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Client", "CarDealer.Client\CarDealer.Client.csproj", "{8D2AE253-8315-4A36-A179-3BB4EBC1AAF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{0C0FD8FF-0763-4797-8022-25754B235DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C0FD8FF-0763-4797-8022-25754B235DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C0FD8FF-0763-4797-8022-25754B235DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995AC5E9-44FF-44A9-81D4-F9A20E2594EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995AC5E9-44FF-44A9-81D4-F9A20E2594EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995AC5E9-44FF-44A9-81D4-F9A20E2594EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995AC5E9-44FF-44A9-81D4-F9A20E2594EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2AE253-8315-4A36-A179-3BB4EBC1AAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2AE253-8315-4A36-A179-3BB4EBC1AAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2AE253-8315-4A36-A179-3BB4EBC1AAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2AE253-8315-4A36-A179-3BB4EBC1AAF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

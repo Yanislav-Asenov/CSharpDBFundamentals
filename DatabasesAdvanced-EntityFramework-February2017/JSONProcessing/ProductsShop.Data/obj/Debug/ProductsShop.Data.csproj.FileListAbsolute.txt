@@ -17,3 +17,22 @@ c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsS
 c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Data\bin\Debug\Imports\categories.json
 c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Data\bin\Debug\Imports\products.json
 c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Data\bin\Debug\Imports\users.json
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\Imports\categories.json
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\Imports\products.json
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\Imports\users.json
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\ProductsShop.Data.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\ProductsShop.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\ProductsShop.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\ProductsShop.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\ProductsShop.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\obj\Debug\ProductsShop.Data.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\obj\Debug\ProductsShop.Data.Migrations.InitialCreate.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\obj\Debug\ProductsShop.Data.csproj.GenerateResource.Cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\obj\Debug\ProductsShop.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Data\obj\Debug\ProductsShop.Data.pdb

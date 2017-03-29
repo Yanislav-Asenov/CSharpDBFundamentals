@@ -6,7 +6,7 @@
     {
         public int Id { get; set; }
 
-        public double Discount { get; set; }
+        public decimal Discount { get; set; }
 
         public int CarId { get; set; }
 

@@ -3,3 +3,8 @@ c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsS
 c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.csprojResolveAssemblyReference.cache
 c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.dll
 c:\users\yanislav\documents\visual studio 2017\Projects\JSONProcessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Models\bin\Debug\ProductsShop.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Models\bin\Debug\ProductsShop.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\JSONProcessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.pdb

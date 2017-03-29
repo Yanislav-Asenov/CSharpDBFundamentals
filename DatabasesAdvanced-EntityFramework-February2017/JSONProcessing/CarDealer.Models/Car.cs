@@ -14,8 +14,6 @@
 
         public ICollection<Sale> Sales { get; set; } = new HashSet<Sale>();
 
-        public ICollection<Car> Parts { get; set; } = new HashSet<Car>();
-
-        public ICollection<Supplier> Suppliers { get; set; } = new HashSet<Supplier>();
+        public ICollection<Part> Parts { get; set; } = new HashSet<Part>();
     }
 }
