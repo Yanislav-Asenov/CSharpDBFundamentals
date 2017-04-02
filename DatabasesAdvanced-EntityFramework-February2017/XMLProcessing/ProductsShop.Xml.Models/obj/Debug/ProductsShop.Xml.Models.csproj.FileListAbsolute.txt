@@ -1,0 +1,4 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\XMLProcessing\ProductsShop.Xml.Models\bin\Debug\ProductsShop.Xml.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\XMLProcessing\ProductsShop.Xml.Models\bin\Debug\ProductsShop.Xml.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\XMLProcessing\ProductsShop.Xml.Models\obj\Debug\ProductsShop.Xml.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\XMLProcessing\ProductsShop.Xml.Models\obj\Debug\ProductsShop.Xml.Models.pdb

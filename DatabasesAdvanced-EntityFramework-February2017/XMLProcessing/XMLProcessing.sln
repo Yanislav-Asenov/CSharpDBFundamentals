@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XMLFiles", "XMLFiles", "{42DC73EF-7217-4BC1-B439-A3A7667F3BD7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\XMLProcessing_Files\catalog.xml = ..\..\..\..\XMLProcessing_Files\catalog.xml
+		..\..\..\..\XMLProcessing_Files\students.xml = ..\..\..\..\XMLProcessing_Files\students.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsShop.Xml.Data", "ProductsShop.Xml.Data\ProductsShop.Xml.Data.csproj", "{E14A1B48-D268-4EF1-BEF7-50DE73D0867D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsShop.Xml.Models", "ProductsShop.Xml.Models\ProductsShop.Xml.Models.csproj", "{07581930-7CC4-43E5-AB00-B6E27ADB881D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsShop.Xml.Client", "ProductsShop.Xml.Client\ProductsShop.Xml.Client.csproj", "{5B0F6C5E-B743-42CB-8488-402111C949D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Xml.Data", "CarDealer.Xml.Data\CarDealer.Xml.Data.csproj", "{B406BD0C-C854-4A3F-92B0-EC9E43E6AD7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Xml.Models", "CarDealer.Xml.Models\CarDealer.Xml.Models.csproj", "{8917BA8C-222A-4DFF-A489-C109AE5C66D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Xml.Client", "CarDealer.Xml.Client\CarDealer.Xml.Client.csproj", "{93D97205-F748-450D-9F8A-439DC88A4D10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E14A1B48-D268-4EF1-BEF7-50DE73D0867D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14A1B48-D268-4EF1-BEF7-50DE73D0867D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14A1B48-D268-4EF1-BEF7-50DE73D0867D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14A1B48-D268-4EF1-BEF7-50DE73D0867D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07581930-7CC4-43E5-AB00-B6E27ADB881D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07581930-7CC4-43E5-AB00-B6E27ADB881D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07581930-7CC4-43E5-AB00-B6E27ADB881D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07581930-7CC4-43E5-AB00-B6E27ADB881D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0F6C5E-B743-42CB-8488-402111C949D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0F6C5E-B743-42CB-8488-402111C949D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0F6C5E-B743-42CB-8488-402111C949D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0F6C5E-B743-42CB-8488-402111C949D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B406BD0C-C854-4A3F-92B0-EC9E43E6AD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B406BD0C-C854-4A3F-92B0-EC9E43E6AD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B406BD0C-C854-4A3F-92B0-EC9E43E6AD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B406BD0C-C854-4A3F-92B0-EC9E43E6AD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8917BA8C-222A-4DFF-A489-C109AE5C66D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8917BA8C-222A-4DFF-A489-C109AE5C66D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8917BA8C-222A-4DFF-A489-C109AE5C66D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8917BA8C-222A-4DFF-A489-C109AE5C66D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D97205-F748-450D-9F8A-439DC88A4D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D97205-F748-450D-9F8A-439DC88A4D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D97205-F748-450D-9F8A-439DC88A4D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D97205-F748-450D-9F8A-439DC88A4D10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

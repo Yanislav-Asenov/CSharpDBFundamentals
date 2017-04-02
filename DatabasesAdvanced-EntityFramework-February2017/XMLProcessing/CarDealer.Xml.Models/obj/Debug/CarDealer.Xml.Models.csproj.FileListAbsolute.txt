@@ -1,0 +1,4 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\XMLProcessing\CarDealer.Xml.Models\bin\Debug\CarDealer.Xml.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\XMLProcessing\CarDealer.Xml.Models\bin\Debug\CarDealer.Xml.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\XMLProcessing\CarDealer.Xml.Models\obj\Debug\CarDealer.Xml.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\XMLProcessing\CarDealer.Xml.Models\obj\Debug\CarDealer.Xml.Models.pdb
