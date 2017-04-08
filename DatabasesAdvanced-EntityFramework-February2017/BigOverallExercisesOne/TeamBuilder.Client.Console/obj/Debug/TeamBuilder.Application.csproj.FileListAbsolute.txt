@@ -1,0 +1,15 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\TeamBuilder.Client.Console.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\TeamBuilder.Client.Console.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\TeamBuilder.Client.Console.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\TeamBuilder.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\TeamBuilder.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\TeamBuilder.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\TeamBuilder.Data.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\TeamBuilder.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\obj\Debug\TeamBuilder.Client.Console.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\obj\Debug\TeamBuilder.Client.Console.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Client.Console\obj\Debug\TeamBuilder.Application.csprojResolveAssemblyReference.cache

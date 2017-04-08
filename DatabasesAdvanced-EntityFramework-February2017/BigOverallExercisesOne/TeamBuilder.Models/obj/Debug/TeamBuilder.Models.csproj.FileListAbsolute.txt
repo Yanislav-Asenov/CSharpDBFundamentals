@@ -1,0 +1,5 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Models\bin\Debug\TeamBuilder.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Models\bin\Debug\TeamBuilder.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Models\obj\Debug\TeamBuilder.Models.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Models\obj\Debug\TeamBuilder.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Models\obj\Debug\TeamBuilder.Models.pdb

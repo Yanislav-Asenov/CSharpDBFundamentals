@@ -1,0 +1,15 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\MassDefect.Export.Xml.exe.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\MassDefect.Export.Xml.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\MassDefect.Export.Xml.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\MassDefect.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\MassDefect.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\MassDefect.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\MassDefect.Data.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\MassDefect.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\obj\Debug\MassDefect.Export.Xml.exe
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\obj\Debug\MassDefect.Export.Xml.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Export.Xml\obj\Debug\MassDefect.Export.Xml.csprojResolveAssemblyReference.cache

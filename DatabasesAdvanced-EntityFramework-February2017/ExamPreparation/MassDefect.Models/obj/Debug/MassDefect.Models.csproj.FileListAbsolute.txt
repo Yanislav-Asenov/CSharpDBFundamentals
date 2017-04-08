@@ -1,0 +1,5 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Models\bin\Debug\MassDefect.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Models\bin\Debug\MassDefect.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Models\obj\Debug\MassDefect.Models.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Models\obj\Debug\MassDefect.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\ExamPreparation\MassDefect.Models\obj\Debug\MassDefect.Models.pdb

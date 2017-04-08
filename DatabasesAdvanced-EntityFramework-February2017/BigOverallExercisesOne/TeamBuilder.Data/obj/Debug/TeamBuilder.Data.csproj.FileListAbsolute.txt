@@ -1,0 +1,17 @@
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\bin\Debug\TeamBuilder.Data.dll.config
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\bin\Debug\TeamBuilder.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\bin\Debug\TeamBuilder.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\bin\Debug\EntityFramework.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\bin\Debug\EntityFramework.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.csprojResolveAssemblyReference.cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\bin\Debug\TeamBuilder.Models.dll
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\bin\Debug\TeamBuilder.Models.pdb
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.Migrations.InitialCreate.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.csproj.GenerateResource.Cache
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.Migrations.AddUserRelationWIthEvents.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.Migrations.InitialCreate3.resources
+C:\Users\yanislav\Desktop\GR\CSharpDBFundamentals\DatabasesAdvanced-EntityFramework-February2017\BigOverallExercisesOne\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.Migrations.AddIndexToTeamName.resources
